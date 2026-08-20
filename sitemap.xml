@@ -1,0 +1,585 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <!-- English (Default / x-default) -->
+  <url>
+    <loc>https://2048zone.com/en/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>1.0</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Polski -->
+  <url>
+    <loc>https://2048zone.com/pl/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Deutsch -->
+  <url>
+    <loc>https://2048zone.com/de/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Français -->
+  <url>
+    <loc>https://2048zone.com/fr/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Español -->
+  <url>
+    <loc>https://2048zone.com/es/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Italiano -->
+  <url>
+    <loc>https://2048zone.com/it/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Português -->
+  <url>
+    <loc>https://2048zone.com/pt/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Nederlands -->
+  <url>
+    <loc>https://2048zone.com/nl/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Русский -->
+  <url>
+    <loc>https://2048zone.com/ru/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- 日本語 -->
+  <url>
+    <loc>https://2048zone.com/ja/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- 中文 -->
+  <url>
+    <loc>https://2048zone.com/zh/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- 한국어 -->
+  <url>
+    <loc>https://2048zone.com/ko/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Türkçe -->
+  <url>
+    <loc>https://2048zone.com/tr/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- العربية -->
+  <url>
+    <loc>https://2048zone.com/ar/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- हिन्दी -->
+  <url>
+    <loc>https://2048zone.com/hi/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Svenska -->
+  <url>
+    <loc>https://2048zone.com/sv/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Dansk -->
+  <url>
+    <loc>https://2048zone.com/da/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Suomi -->
+  <url>
+    <loc>https://2048zone.com/fi/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Ελληνικά -->
+  <url>
+    <loc>https://2048zone.com/el/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+  <!-- Čeština -->
+  <url>
+    <loc>https://2048zone.com/cs/</loc>
+    <lastmod>2026-08-12</lastmod>
+    <changefreq>daily</changefreq>
+    <priority>0.9</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/en/" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
+  </url>
+
+</urlset>

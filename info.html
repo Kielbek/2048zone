@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title id="page-title">2048zone.com</title>
+    <link rel="icon" type="image/png" href="/2048-logo.png">
+    <style>
+        body {
+            background-color: #faf8ef;
+            color: #776e65;
+            font-family: 'Clear Sans', sans-serif;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            padding: 20px;
+            margin: 0;
+            line-height: 1.6;
+        }
+        .content-box {
+            background: #ffffff;
+            padding: 40px;
+            border-radius: 12px;
+            max-width: 700px;
+            width: 100%;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
+            margin-top: 30px;
+        }
+        h1 { color: #8f7a66; margin-bottom: 20px; font-size: 28px; }
+        p { margin-bottom: 15px; font-size: 15px; }
+        a.back-btn {
+            display: inline-block;
+            background: #8f7a66;
+            color: white;
+            padding: 10px 20px;
+            border-radius: 6px;
+            text-decoration: none;
+            font-weight: bold;
+            margin-top: 20px;
+            transition: background 0.2s;
+        }
+        a.back-btn:hover { background: #9f8b77; }
+    </style>
+</head>
+<body>
+
+    <div class="content-box">
+        <h1 id="heading">Loading...</h1>
+        <div id="text-content">
+            <p>Please wait...</p>
+        </div>
+        <a href="/" class="back-btn" id="back-link">← Back to Game</a>
+    </div>
+
+    <script>
+        const legalTexts = {
+            en: {
+                privacy: { title: "Privacy Policy", content: "Your privacy is important to us. We use local storage to save your best game score and cookies for basic analytics to improve your experience on 2048zone.com." },
+                terms: { title: "Terms of Service", content: "By playing 2048zone.com, you agree to enjoy the game for personal, non-commercial use. The game is provided 'as is' without warranties of any kind." },
+                contact: { title: "Contact Us", content: "If you have any questions, feedback, or bug reports regarding 2048zone.com, you can reach us at: support@2048zone.com." },
+                back: "← Back to Game"
+            },
+            pl: {
+                privacy: { title: "Polityka Prywatności", content: "Twoja prywatność jest dla nas ważna. Używamy pamięci lokalnej przeglądarki (localStorage) do zapisu Twojego rekordu oraz plików cookies w celach analitycznych na 2048zone.com." },
+                terms: { title: "Regulamin Serwisu", content: "Grając na 2048zone.com, zgadzasz się na korzystanie z gry do celów prywatnych i niekomercyjnych. Gra jest udostępniana bez gwarancji ciągłości działania." },
+                contact: { title: "Kontakt", content: "Jeśli masz pytania, opinie lub chcesz zgłosić błąd związany z 2048zone.com, napisz do nas na adres: support@2048zone.com." },
+                back: "← Powrót do gry"
+            },
+            de: {
+                privacy: { title: "Datenschutz", content: "Ihre Privatsphäre ist uns wichtig. Wir verwenden den lokalen Speicher für Ihren Highscore und Cookies für Analysen auf 2048zone.com." },
+                terms: { title: "Nutzungsbedingungen", content: "Durch das Spielen auf 2048zone.com stimmen Sie der privaten, nicht-kommerziellen Nutzung zu." },
+                contact: { title: "Kontakt", content: "Bei Fragen oder Feedback zu 2048zone.com erreichen Sie uns unter: support@2048zone.com." },
+                back: "← Zurück zum Spiel"
+            },
+            fr: {
+                privacy: { title: "Politique de Confidentialité", content: "Votre vie privée est importante pour nous. Nous utilisons le stockage local pour sauvegarder votre meilleur score et des cookies pour l'analyse sur 2048zone.com." },
+                terms: { title: "Conditions d'Utilisation", content: "En jouant sur 2048zone.com, vous acceptez d'utiliser le jeu à des fins personnelles et non commerciales." },
+                contact: { title: "Contact", content: "Pour toute question ou commentaire concernant 2048zone.com, contactez-nous à : support@2048zone.com." },
+                back: "← Retour au jeu"
+            },
+            es: {
+                privacy: { title: "Política de Privacidad", content: "Tu privacidad es importante para nosotros. Usamos almacenamiento local para guardar tu puntuación y cookies para análisis en 2048zone.com." },
+                terms: { title: "Términos de Servicio", content: "Al jugar en 2048zone.com, aceptas disfrutar del juego para uso personal y no comercial." },
+                contact: { title: "Contacto", content: "Si tienes preguntas o comentarios sobre 2048zone.com, contáctanos en: support@2048zone.com." },
+                back: "← Volver al juego"
+            },
+            it: {
+                privacy: { title: "Informativa sulla Privacy", content: "La tua privacy è importante per noi. Utilizziamo la memoria locale per il punteggio e cookie analitici su 2048zone.com." },
+                terms: { title: "Termini di Servizio", content: "Giocando su 2048zone.com accetti di utilizzare il gioco per scopi personali e non commerciali." },
+                contact: { title: "Contatti", content: "Per domande o segnalazioni su 2048zone.com, contattaci a: support@2048zone.com." },
+                back: "← Torna al gioco"
+            },
+            pt: {
+                privacy: { title: "Política de Privacidade", content: "A sua privacidade é importante para nós. Usamos armazenamento local para salvar sua pontuação e cookies para análise em 2048zone.com." },
+                terms: { title: "Termos de Serviço", content: "Ao jogar em 2048zone.com, você concorda com o uso pessoal e não comercial." },
+                contact: { title: "Contato", content: "Se tiver dúvidas ou comentários sobre 2048zone.com, contacte-nos: support@2048zone.com." },
+                back: "← Voltar ao jogo"
+            },
+            nl: {
+                privacy: { title: "Privacybeleid", content: "Uw privacy is belangrijk voor ons. We gebruiken lokale opslag voor uw score en cookies voor analyse op 2048zone.com." },
+                terms: { title: "Algemene Voorwaarden", content: "Door te spelen op 2048zone.com gaat u akkoord met persoonlijk, niet-commercieel gebruik." },
+                contact: { title: "Contact", content: "Voor vragen of feedback over 2048zone.com kunt u ons bereiken via: support@2048zone.com." },
+                back: "← Terug naar het spel"
+            },
+            ru: {
+                privacy: { title: "Политика конфиденциальности", content: "Ваша конфиденциальность важна для нас. Мы используем локальное хранилище для сохранения рекорда и файлы cookie на 2048zone.com." },
+                terms: { title: "Условия использования", content: "Играя на 2048zone.com, вы соглашаетесь использовать игру в личных некоммерческих целях." },
+                contact: { title: "Контакты", content: "Если у вас есть вопросы или отзывы по поводу 2048zone.com, пишите нам: support@2048zone.com." },
+                back: "← Назад к игре"
+            },
+            ja: {
+                privacy: { title: "プライバシーポリシー", content: "お客様のプライバシーは重要です。2048zone.comでは、スコア保存のためにローカルストレージとアナリティクス用クッキーを使用しています。" },
+                terms: { title: "利用規約", content: "2048zone.comでのプレイにより、個人的かつ非営利的な利用に同意したことになります。" },
+                contact: { title: "お問い合わせ", content: "2048zone.comに関するご質問や不具合の報告は、support@2048zone.com までご連絡ください。" },
+                back: "← ゲームに戻る"
+            },
+            zh: {
+                privacy: { title: "隐私政策", content: "我们重视您的隐私。我们在 2048zone.com 上使用本地存储保存最高分，并使用 Cookie 进行基础分析。" },
+                terms: { title: "服务条款", content: "游玩 2048zone.com 即表示您同意将其用于个人、非商业用途。" },
+                contact: { title: "联系我们", content: "如果您对 2048zone.com 有任何疑问、反馈或错误报告，请通过以下方式联系我们：support@2048zone.com。" },
+                back: "← 返回游戏"
+            },
+            ko: {
+                privacy: { title: "개인정보처리방침", content: "당사는 사용자의 개인정보를 중요하게 생각합니다. 2048zone.com에서는 최고 점수 저장을 위해 로컬 스토리지를 사용합니다." },
+                terms: { title: "이용약관", content: "2048zone.com을 이용함으로써 개인적 및 비상업적 용도의 게임 이용에 동의하게 됩니다." },
+                contact: { title: "연락처", content: "2048zone.com에 대한 질문이나 피드백이 있으시면 support@2048zone.com으로 문의해 주세요." },
+                back: "← 게임으로 돌아가기"
+            },
+            tr: {
+                privacy: { title: "Gizlilik Politikası", content: "Gizliliğiniz bizim için önemlidir. 2048zone.com'da en yüksek skoru kaydetmek için yerel depolama alanı kullanıyoruz." },
+                terms: { title: "Kullanım Şartları", content: "2048zone.com oynayarak oyunu kişisel ve ticari olmayan amaçlarla kullanmayı kabul etmiş olursunuz." },
+                contact: { title: "İletişim", content: "2048zone.com hakkında her türlü soru, geri bildirim veya hata bildirimi için: support@2048zone.com." },
+                back: "← Oyuna Dön"
+            },
+            ar: {
+                privacy: { title: "سياسة الخصوصية", content: "خصوصيتك مهمة بالنسبة لنا. نستخدم التخزين المحلي لحفظ نقاطك و ملفات تعريف الارتباط على 2048zone.com." },
+                terms: { title: "شروط الخدمة", content: "من خلال اللعب على 2048zone.com، فإنك توافق على الاستخدام الشخصي غير التجاري." },
+                contact: { title: "اتصل بنا", content: "إذا كان لديك أي أسئلة أو تعليقات بخصوص 2048zone.com، تواصل معنا عبر: support@2048zone.com." },
+                back: "← العودة إلى اللعبة"
+            },
+            hi: {
+                privacy: { title: "गोपनीयता नीति", content: "आपकी गोपनीयता हमारे लिए महत्वपूर्ण है। हम 2048zone.com पर स्कोर सहेजने के लिए स्थानीय स्टोरेज का उपयोग करते हैं।" },
+                terms: { title: "सेवा की शर्तें", content: "2048zone.com खेलकर, आप व्यक्तिगत और गैर-व्यावसायिक उपयोग के लिए सहमत होते हैं।" },
+                contact: { title: "संपर्क करें", content: "यदि आपके पास कोई प्रश्न या प्रतिक्रिया है, तो हमें यहाँ संपर्क करें: support@2048zone.com." },
+                back: "← गेम पर वापस जाएं"
+            },
+            sv: {
+                privacy: { title: "Integritetspolicy", content: "Din integritet är viktig för oss. Vi använder lokal lagring för ditt poäng och cookies för analys på 2048zone.com." },
+                terms: { title: "Användarvillkor", content: "Genom att spela på 2048zone.com godkänner du personlig, icke-kommersiell användning." },
+                contact: { title: "Kontakt", content: "Om du har frågor eller feedback angående 2048zone.com, nå oss på: support@2048zone.com." },
+                back: "← Tillbaka till spelet"
+            },
+            da: {
+                privacy: { title: "Privatlivspolitik", content: "Dit privatliv er vigtigt for os. Vi bruger lokal lagring til din score og cookies til analyse på 2048zone.com." },
+                terms: { title: "Vilkår for service", content: "Ved at spille på 2048zone.com accepterer du personlig, ikke-kommerciel brug." },
+                contact: { title: "Kontakt", content: "Hvis du har spørgsmål eller feedback vedrørende 2048zone.com, kan du kontakte os på: support@2048zone.com." },
+                back: "← Tilbage til spillet"
+            },
+            fi: {
+                privacy: { title: "Tietosuojakäytäntö", content: "Yksityisyytesi on meille tärkeää. Käytämme paikallista tallennustilaa pisteiden tallentamiseen 2048zone.com-sivustolla." },
+                terms: { title: "Käyttöehdot", content: "Pelaamalla 2048zone.com-sivustolla hyväksyt pelin henkilökohtaisen, ei-kaupallisen käytön." },
+                contact: { title: "Ota yhteyttä", content: "Jos sinulla on kysyttävää tai palautetta, ota yhteyttä: support@2048zone.com." },
+                back: "← Takaisin peliin"
+            },
+            el: {
+                privacy: { title: "Πολιτική Απορρήτου", content: "Το απόρρητό σας είναι σημαντικό για εμάς. Χρησιμοποιούμε τοπική αποθήκευση για το σκορ σας στο 2048zone.com." },
+                terms: { title: "Όροι Xρήσης", content: "Παίζοντας στο 2048zone.com, συμφωνείτε με την προσωπική, μη εμπορική χρήση." },
+                contact: { title: "Επικοινωνία", content: "Εάν έχετε ερωτήσεις ή σχόλια σχετικά με το 2048zone.com, επικοινωνήστε μαζί μας: support@2048zone.com." },
+                back: "← Επιστροφή στο παιχνίδι"
+            },
+            cs: {
+                privacy: { title: "Zásady ochrany osobních údajů", content: "Vaše soukromí je pro nás důležité. Na 2048zone.com používáme místní úložiště pro uložení skóre." },
+                terms: { title: "Podmínky použití", content: "Hraním na 2048zone.com souhlasíte s osobním, nekomerčním využitím hry." },
+                contact: { title: "Kontakt", content: "Máte-li jakékoli dotazy nebo zpětnou vazbu ohledně 2048zone.com, kontaktujte nás na: support@2048zone.com." },
+                back: "← Zpět do hry"
+            }
+        };
+
+        const pathSegments = window.location.pathname.split('/').filter(Boolean);
+        let lang = 'en';
+        let pageType = 'privacy';
+
+        const supportedLangs = Object.keys(legalTexts);
+        if (pathSegments.length > 0 && supportedLangs.includes(pathSegments[0])) {
+            lang = pathSegments[0];
+            if (pathSegments.length > 1) {
+                pageType = pathSegments[1];
+            }
+        } else {
+            const urlParams = new URLSearchParams(window.location.search);
+            lang = urlParams.get('lang') || 'en';
+            pageType = urlParams.get('page') || 'privacy';
+        }
+
+        const t = legalTexts[lang] || legalTexts['en'];
+        const pageData = t[pageType] || t.privacy;
+
+        document.getElementById('page-title').textContent = pageData.title + " – 2048zone.com";
+        document.getElementById('heading').textContent = pageData.title;
+        document.getElementById('text-content').innerHTML = `<p>${pageData.content}</p>`;
+        document.getElementById('back-link').textContent = t.back;
+        
+        const backUrl = supportedLangs.includes(pathSegments[0]) ? `/${pathSegments[0]}/` : '/';
+        document.getElementById('back-link').href = backUrl;
+    </script>
+</body>
+</html>
