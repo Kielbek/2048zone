@@ -280,32 +280,6 @@
         }
 
         /* ===== DESKTOP: apka dostaje "kartę" z cieniem zamiast luźno pływać na gołym tle ===== */
-        @media screen and (min-width: 760px) {
-            :root { --app-width: 460px; }
-            body { padding: 48px 20px 120px; }
-            body::before {
-                content: "";
-                position: fixed;
-                inset: 0;
-                z-index: -1;
-                background:
-                    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--board-bg) 22%, transparent) 0%, transparent 60%),
-                    var(--bg-color);
-                transition: background 0.4s ease;
-            }
-            .screens-viewport {
-                background: var(--widget-bg);
-                border-radius: 28px;
-                padding: 30px 26px 26px;
-                box-shadow:
-                    0 1px 0 rgba(255,255,255,0.4) inset,
-                    0 24px 0 rgba(0,0,0,0.02),
-                    0 30px 60px rgba(0,0,0,0.16),
-                    0 10px 24px rgba(0,0,0,0.08);
-                min-height: 660px;
-            }
-            .bottom-nav { bottom: 22px; }
-        }
 
         /* Kluczowy kontener: wypełnia całą przestrzeń i idealnie centruje planszę w pionie i poziomie */
         .game-content-centered {
@@ -826,6 +800,26 @@
         .nav-item.active { color: #ffffff; background: rgba(255,255,255,0.1); }
         .nav-item.active .nav-icon { transform: translateY(-1px) scale(1.08); }
 
+        /* ===== DESKTOP TOP TABS: replaces the floating bottom dock on wide screens ===== */
+        .top-nav {
+            display: none; /* shown only in the desktop media query */
+            width: 100%; max-width: var(--app-width);
+            gap: 6px; background: var(--cell-bg); padding: 6px; border-radius: 14px;
+            margin-bottom: 16px;
+        }
+        .top-nav .nav-item {
+            flex-direction: row; justify-content: center; gap: 8px;
+            color: var(--text-color); opacity: 0.65; padding: 10px 8px; border-radius: 10px;
+            font-size: 11px;
+        }
+        .top-nav .nav-item .nav-icon { fill: currentColor; }
+        .top-nav .nav-item:hover { opacity: 0.9; }
+        .top-nav .nav-item.active {
+            background: var(--btn-bg); color: #fff; opacity: 1;
+            box-shadow: 0 3px 8px rgba(0,0,0,0.25);
+        }
+        .top-nav .nav-item.active .nav-icon { transform: none; }
+
         /* ===== RANKING ===== */
         .period-tabs { display: flex; gap: 6px; width: 100%; max-width: var(--app-width); background: var(--cell-bg); padding: 5px; border-radius: 12px; }
         .period-tab {
@@ -955,10 +949,63 @@
         .nickname-input:focus { border-color: var(--btn-bg); }
         .nickname-error { font-size: 12px; color: #d9534f; min-height: 14px; font-weight: 700; }
 
-        body { padding-bottom: 100px; }
+        @media screen and (max-width: 759px) {
+            body { padding-bottom: 100px; } /* clearance for the floating bottom-nav dock */
+        }
+
+        /* Moved to the end so its declarations win the cascade over same-specificity
+           rules defined later in the stylesheet (e.g. .top-nav, .bottom-nav, .screens-track). */
+        @media screen and (min-width: 760px) {
+            :root { --app-width: 460px; }
+            body { padding: 48px 20px 60px; }
+            body::before {
+                content: "";
+                position: fixed;
+                inset: 0;
+                z-index: -1;
+                background:
+                    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--board-bg) 22%, transparent) 0%, transparent 60%),
+                    var(--bg-color);
+                transition: background 0.4s ease;
+            }
+            .screens-viewport {
+                background: var(--widget-bg);
+                border-radius: 28px;
+                padding: 30px 26px 26px;
+                box-shadow:
+                    0 1px 0 rgba(255,255,255,0.4) inset,
+                    0 24px 0 rgba(0,0,0,0.02),
+                    0 30px 60px rgba(0,0,0,0.16),
+                    0 10px 24px rgba(0,0,0,0.08);
+                min-height: 660px;
+            }
+            /* Desktop gets a top tab bar instead of the mobile floating dock,
+               and instant screen switches instead of the swipe-style slide —
+               a bottom nav + carousel is a phone pattern, not a desktop one. */
+            .bottom-nav { display: none; }
+            .top-nav { display: flex; }
+            .screens-track { transition: none; }
+        }
+
     </style>
 </head>
 <body>
+    <!-- DESKTOP TOP TABS (mirrors bottom-nav; shown instead of it at >=760px) -->
+    <nav class="top-nav" id="top-nav">
+        <button class="nav-item" data-screen="rank" id="nav-rank-top">
+            <svg class="nav-icon" viewBox="0 0 24 24"><path d="M5 3h14v2h2v3a4 4 0 0 1-4 4h-.26A6 6 0 0 1 13 15.86V18h3v2H8v-2h3v-2.14A6 6 0 0 1 7.26 12H7a4 4 0 0 1-4-4V5h2V3zm0 4H4v1a2 2 0 0 0 2 2V7zm14 0v3a2 2 0 0 0 2-2V7h-2z"/></svg>
+            <span>Rank</span>
+        </button>
+        <button class="nav-item active" data-screen="play" id="nav-play-top">
+            <svg class="nav-icon" viewBox="0 0 24 24"><path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2zM2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8zM2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z"/></svg>
+            <span>Play</span>
+        </button>
+        <button class="nav-item" data-screen="profile" id="nav-profile-top">
+            <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
+            <span>Profile</span>
+        </button>
+    </nav>
+
     <div class="screens-viewport" id="screens-viewport">
     <div class="screens-clip">
     <div class="screens-track" id="screens-track">
