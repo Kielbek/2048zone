@@ -32,6 +32,7 @@
     <link href="https://fonts.googleapis.com/css2?family=Clear+Sans:wght@400;700;800&display=swap" rel="stylesheet">
  <style>
         :root {
+            --app-width: 400px;
             --bg-color: #faf8ef;
             --text-color: #776e65;
             --header-color: #776e65;
@@ -172,34 +173,35 @@
             position: relative;
             display: flex; 
             width: 100%; 
-            max-width: 400px;
+            max-width: var(--app-width);
             flex-shrink: 0; 
             margin-bottom: 10px;
         }
 
         .header-normal {
             display: flex;
+            flex-wrap: wrap;
             justify-content: space-between;
             align-items: center;
             width: 100%;
-            gap: 15px;
+            gap: 10px;
             opacity: 1;
             transform: translateY(0);
             transition: opacity 0.35s ease, transform 0.35s ease;
         }
 
-        .left-header { display: flex; align-items: center; gap: 12px; }
-        .menu-icon { font-size: 32px; cursor: pointer; color: var(--header-color); font-weight: bold; transition: transform 0.2s, opacity 0.2s; }
+        .left-header { order: 1; display: flex; align-items: center; gap: 10px; }
+        .menu-icon { font-size: 28px; cursor: pointer; color: var(--header-color); font-weight: bold; transition: transform 0.2s, opacity 0.2s; }
         .menu-icon:hover { transform: scale(1.1); opacity: 0.8; }
-        h1 { font-size: 44px; font-weight: 800; color: var(--header-color); line-height: 1; letter-spacing: -2px; }
-        
-        .center-header { display: flex; align-items: center; gap: 8px; }
-        .scores-container { display: flex; gap: 8px; }
-        .score-box { background: var(--board-bg); padding: 8px 14px; border-radius: 8px; color: #eee4da; text-align: center; font-weight: bold; font-size: 10px; letter-spacing: 1px; text-transform: uppercase; min-width: 70px; box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset, 0 4px 0 rgba(0,0,0,0.25), 0 6px 10px rgba(0,0,0,0.2); }
-        .score-box span { display: block; font-size: 18px; font-weight: 800; color: white; margin-top: 2px; }
-        
-        .right-header { display: flex; align-items: center; }
-        .new-game-btn { background: var(--btn-bg); border-radius: 8px; padding: 12px 18px; color: white; font-weight: 700; cursor: pointer; border: none; font-size: 14px; transition: all 0.15s ease; white-space: nowrap; box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 5px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 8px 14px rgba(0,0,0,0.25); transform: translateY(0); }
+        h1 { font-size: 38px; font-weight: 800; color: var(--header-color); line-height: 1; letter-spacing: -1.5px; }
+
+        .center-header { order: 3; width: 100%; display: flex; align-items: center; gap: 8px; }
+        .scores-container { width: 100%; display: flex; gap: 8px; }
+        .score-box { flex: 1; background: var(--board-bg); padding: 7px 12px; border-radius: 8px; color: #eee4da; text-align: center; font-weight: bold; font-size: 9.5px; letter-spacing: 1px; text-transform: uppercase; box-shadow: 0 1px 0 rgba(255,255,255,0.15) inset, 0 4px 0 rgba(0,0,0,0.25), 0 6px 10px rgba(0,0,0,0.2); }
+        .score-box span { display: block; font-size: 17px; font-weight: 800; color: white; margin-top: 2px; }
+
+        .right-header { order: 2; display: flex; align-items: center; }
+        .new-game-btn { background: var(--btn-bg); border-radius: 8px; padding: 11px 16px; color: white; font-weight: 700; cursor: pointer; border: none; font-size: 13px; transition: all 0.15s ease; white-space: nowrap; box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 5px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 8px 14px rgba(0,0,0,0.25); transform: translateY(0); }
         .new-game-btn:hover { background: var(--btn-hover); transform: translateY(-2px); box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 7px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 12px 18px rgba(0,0,0,0.3); }
         .new-game-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 2px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 4px 8px rgba(0,0,0,0.2); }
 
@@ -234,21 +236,42 @@
             pointer-events: auto;
         }
 
-        @media screen and (max-width: 450px) {
-            .header-normal { 
-                flex-wrap: wrap;
-                gap: 8px; 
-            }
-            .left-header { order: 1; }
-            .right-header { order: 2; }
-            .center-header { order: 3; width: 100%; }
-            .scores-container { width: 100%; display: flex; gap: 8px; }
-            .score-box { flex: 1; padding: 6px 10px; font-size: 9px; min-width: unset; }
+        @media screen and (max-width: 360px) {
+            .header-normal { gap: 8px; }
+            .score-box { padding: 6px 10px; font-size: 9px; }
             .score-box span { font-size: 15px; }
             .menu-icon { font-size: 26px; }
             h1 { font-size: 34px; letter-spacing: -1px; }
             .new-game-btn { padding: 10px 14px; font-size: 12px; }
             .header-gameover h1 { font-size: 32px; }
+        }
+
+        /* ===== DESKTOP: apka dostaje "kartę" z cieniem zamiast luźno pływać na gołym tle ===== */
+        @media screen and (min-width: 760px) {
+            :root { --app-width: 460px; }
+            body { padding: 48px 20px 120px; }
+            body::before {
+                content: "";
+                position: fixed;
+                inset: 0;
+                z-index: -1;
+                background:
+                    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--board-bg) 22%, transparent) 0%, transparent 60%),
+                    var(--bg-color);
+                transition: background 0.4s ease;
+            }
+            .screens-viewport {
+                background: var(--widget-bg);
+                border-radius: 28px;
+                padding: 30px 26px 26px;
+                box-shadow:
+                    0 1px 0 rgba(255,255,255,0.4) inset,
+                    0 24px 0 rgba(0,0,0,0.02),
+                    0 30px 60px rgba(0,0,0,0.16),
+                    0 10px 24px rgba(0,0,0,0.08);
+                min-height: 660px;
+            }
+            .bottom-nav { bottom: 22px; }
         }
 
         /* Kluczowy kontener: wypełnia całą przestrzeń i idealnie centruje planszę w pionie i poziomie */
@@ -259,7 +282,7 @@
             justify-content: center;
             margin: auto; 
             width: 100%;
-            max-width: 400px;
+            max-width: var(--app-width);
         }
 
         .container { 
@@ -276,7 +299,7 @@
             background: var(--board-bg);
             border-radius: 16px;
             width: 100%;
-            max-width: 400px;
+            max-width: var(--app-width);
             aspect-ratio: 1 / 1;
             height: auto;
             padding: 12px;
@@ -401,7 +424,7 @@
             border-radius: 16px;
             gap: 12px;
             width: 100%;
-            max-width: 400px;
+            max-width: var(--app-width);
             justify-content: space-between;
             box-shadow:
                 0 1px 0 rgba(255,255,255,0.18) inset,
@@ -636,7 +659,7 @@
         .board-footer-slot {
             position: relative;
             width: 100%;
-            max-width: 400px;
+            max-width: var(--app-width);
         }
 
         .go-actions {
@@ -700,7 +723,7 @@
             opacity: 0.7;
             text-align: center;
             width: 100%;
-            max-width: 400px;
+            max-width: var(--app-width);
         }
 
         .footer a {
@@ -722,7 +745,8 @@
         }
 
         /* ===== APP SHELL: SCREENS & NAVIGATION ===== */
-        .screens-viewport { position: relative; width: 100%; max-width: 400px; margin: 0 auto; flex: 1 1 auto; overflow: hidden; }
+        .screens-viewport { position: relative; width: 100%; max-width: var(--app-width); margin: 0 auto; flex: 1 1 auto; min-height: 0; display: flex; flex-direction: column; }
+        .screens-clip { width: 100%; flex: 1 1 auto; min-height: 0; overflow: hidden; }
         .screens-track {
             display: flex; align-items: stretch; height: 100%; gap: 16px;
             transition: transform 0.42s cubic-bezier(.22,.61,.36,1);
@@ -741,13 +765,13 @@
         #screen-play    { order: 2; }
         #screen-profile { order: 3; }
 
-        .screen-inner { width: 100%; max-width: 400px; display: flex; flex-direction: column; gap: 14px; }
-        .screen-header { width: 100%; max-width: 400px; text-align: center; margin-bottom: 2px; }
+        .screen-inner { width: 100%; max-width: var(--app-width); display: flex; flex-direction: column; gap: 14px; }
+        .screen-header { width: 100%; max-width: var(--app-width); text-align: center; margin-bottom: 2px; }
         .screen-title { font-size: 24px; font-weight: 800; color: var(--header-color); letter-spacing: -0.5px; }
 
         .bottom-nav {
             position: fixed; left: 50%; bottom: 14px; transform: translateX(-50%);
-            width: calc(100% - 30px); max-width: 400px;
+            width: calc(100% - 30px); max-width: var(--app-width);
             display: flex; justify-content: space-around;
             background: var(--board-bg); border-radius: 20px; padding: 8px 6px; z-index: 60;
             transition: transform 0.35s ease, opacity 0.35s ease;
@@ -770,7 +794,7 @@
         .nav-item.active .nav-icon { transform: translateY(-1px) scale(1.08); }
 
         /* ===== RANKING ===== */
-        .period-tabs { display: flex; gap: 6px; width: 100%; max-width: 400px; background: var(--cell-bg); padding: 5px; border-radius: 12px; }
+        .period-tabs { display: flex; gap: 6px; width: 100%; max-width: var(--app-width); background: var(--cell-bg); padding: 5px; border-radius: 12px; }
         .period-tab {
             flex: 1; border: none; background: transparent; color: var(--text-color);
             font-family: 'Clear Sans', sans-serif; font-weight: 700; font-size: 11px; letter-spacing: 0.3px;
@@ -779,7 +803,7 @@
         }
         .period-tab.active { background: var(--btn-bg); color: white; opacity: 1; box-shadow: 0 3px 8px rgba(0,0,0,0.25); }
 
-        .rank-body { width: 100%; max-width: 400px; min-height: 320px; margin-top: 12px; }
+        .rank-body { width: 100%; max-width: var(--app-width); min-height: 320px; margin-top: 12px; }
 
         .your-rank-card {
             background: var(--btn-bg);
@@ -792,9 +816,10 @@
         .your-rank-num { font-size: 22px; font-weight: 800; }
         .your-rank-nick { flex: 1; font-size: 15px; font-weight: 700; opacity: 0.95; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
         .your-rank-score { font-size: 15px; font-weight: 800; }
+        .your-rank-sub { font-size: 11px; color: rgba(255,255,255,0.7); margin-top: 6px; font-weight: 600; }
 
         .rank-list { list-style: none; display: flex; flex-direction: column; gap: 6px; }
-        .rank-row { display: flex; align-items: center; gap: 10px; background: var(--cell-bg); padding: 10px 12px; border-radius: 10px; }
+        .rank-row { display: flex; align-items: center; gap: 10px; background: var(--cell-bg); padding: 10px 12px; border-radius: 10px; transition: background 0.2s ease, box-shadow 0.2s ease, transform 0.2s ease; }
         .rank-pos { width: 24px; font-weight: 800; font-size: 14px; text-align: center; opacity: 0.75; }
         .rank-nick { flex: 1; font-weight: 700; font-size: 14px; overflow: hidden; text-overflow: ellipsis; white-space: nowrap; }
         .rank-score { font-weight: 800; font-size: 14px; }
@@ -803,6 +828,36 @@
         .rank-row.top-1 .rank-pos::before { content: "🥇"; font-size: 14px; }
         .rank-row.top-2 .rank-pos::before { content: "🥈"; font-size: 14px; }
         .rank-row.top-3 .rank-pos::before { content: "🥉"; font-size: 14px; }
+
+        .rank-row.is-me {
+            background: color-mix(in srgb, var(--btn-bg) 22%, var(--cell-bg));
+            box-shadow: 0 0 0 2px color-mix(in srgb, var(--btn-bg) 60%, transparent) inset;
+        }
+        .rank-row.is-me .rank-nick::after {
+            content: "YOU"; margin-left: 8px; font-size: 9px; font-weight: 800; letter-spacing: 0.5px;
+            background: var(--btn-bg); color: white; padding: 2px 6px; border-radius: 5px; vertical-align: middle;
+        }
+        .rank-divider {
+            text-align: center; opacity: 0.4; font-weight: 800; letter-spacing: 3px; font-size: 12px; padding: 2px 0;
+        }
+
+        @keyframes rankCelebratePulse {
+            0%   { box-shadow: 0 0 0 0 color-mix(in srgb, var(--btn-bg) 65%, transparent); }
+            70%  { box-shadow: 0 0 0 14px color-mix(in srgb, var(--btn-bg) 0%, transparent); }
+            100% { box-shadow: 0 0 0 0 color-mix(in srgb, var(--btn-bg) 0%, transparent); }
+        }
+        .rank-celebrate { animation: rankCelebratePulse 0.9s ease-out 2; }
+
+        .rank-toast {
+            position: fixed; top: 14px; left: 50%; z-index: 90;
+            transform: translate(-50%, -14px); opacity: 0;
+            background: var(--btn-bg); color: white; font-size: 13px; font-weight: 700;
+            padding: 10px 18px; border-radius: 12px; white-space: nowrap;
+            box-shadow: 0 8px 20px rgba(0,0,0,0.3);
+            pointer-events: none;
+            transition: opacity 0.3s ease, transform 0.3s ease;
+        }
+        .rank-toast.show { opacity: 1; transform: translate(-50%, 0); }
 
         .rank-skeleton { display: flex; flex-direction: column; gap: 8px; }
         .skel-block {
@@ -819,8 +874,8 @@
         .rank-error p { font-size: 14px; opacity: 0.85; }
 
         /* ===== ACHIEVEMENTS ===== */
-        .achievements-progress { font-size: 12px; font-weight: 700; opacity: 0.75; text-align: center; margin: 12px 0 4px; width: 100%; max-width: 400px; }
-        .achievements-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: 400px; }
+        .achievements-progress { font-size: 12px; font-weight: 700; opacity: 0.75; text-align: center; margin: 12px 0 4px; width: 100%; max-width: var(--app-width); }
+        .achievements-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: var(--app-width); }
         .achv-card {
             background: var(--cell-bg); border-radius: 14px; padding: 14px 10px;
             display: flex; flex-direction: column; align-items: center; gap: 6px; text-align: center;
@@ -833,14 +888,14 @@
         .achv-desc { font-size: 10px; opacity: 0.8; line-height: 1.3; }
 
         /* ===== PROFILE ===== */
-        .profile-card { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 100%; max-width: 400px; margin: 4px 0 14px; }
+        .profile-card { display: flex; flex-direction: column; align-items: center; gap: 8px; width: 100%; max-width: var(--app-width); margin: 4px 0 14px; }
         .profile-avatar {
             width: 68px; height: 68px; border-radius: 50%; background: var(--btn-bg);
             display: flex; align-items: center; justify-content: center; font-size: 30px;
             box-shadow: 0 4px 12px rgba(0,0,0,0.3);
         }
         .profile-nickname { font-size: 19px; font-weight: 800; color: var(--header-color); }
-        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: 400px; }
+        .stats-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 10px; width: 100%; max-width: var(--app-width); }
         .stat-box { background: var(--cell-bg); border-radius: 14px; padding: 14px 12px; text-align: center; }
         .stat-label { font-size: 10px; font-weight: 800; letter-spacing: 0.8px; text-transform: uppercase; opacity: 0.7; margin-bottom: 4px; }
         .stat-value { font-size: 19px; font-weight: 800; color: var(--header-color); }
@@ -872,6 +927,7 @@
 </head>
 <body>
     <div class="screens-viewport" id="screens-viewport">
+    <div class="screens-clip">
     <div class="screens-track" id="screens-track">
     <div class="screen" id="screen-play" data-screen="play">
         <!-- Header -->
@@ -998,6 +1054,7 @@
         <div class="achievements-grid" id="achievements-grid"></div>
     </div>
     </div><!-- /screens-track -->
+    </div><!-- /screens-clip -->
     </div><!-- /screens-viewport -->
 
     <!-- BOTTOM NAVIGATION -->
@@ -1749,6 +1806,7 @@
                         bestScore = currentScore;
                         bestScoreDisplay.textContent = bestScore;
                         localStorage.setItem('2048zone_bestScore', bestScore);
+                        RankingService.invalidate();
                     }
                     const maxTileValue = remainingTiles.reduce((m, t) => Math.max(m, t.value), 0);
                     StatsStore.recordProgress(scoreGainedTotal, maxTileValue);
@@ -1905,6 +1963,9 @@
         // ---------- MOCK API (stand-in for a future backend) ----------
         const MockRankingApi = (() => {
             const NICKNAMES = ["2048Master","TileTitan","MergeQueen","GridGuru","PixelPusher","SwipeKing","BlockBuster","NumberNinja","QuadCrusher","StackAttack","ChainReactor","ZenGamer","LuckyTile","FusionFox","ClickClack","ScoreSurfer","PowerPlayer","BoardBoss","EdgeCase","DoubleUp","QuietStorm","NightOwl99","MathWizard","TilePirate","CosmicSwipe","RapidRise","SilverLine","GoldRush21","BlazeTrail","EchoPlay"];
+            const POOL_SIZE = 250;
+            const TOP_COUNT = 10;
+            const WINDOW_RADIUS = 2;
 
             function seedFromString(str) {
                 let h = 0;
@@ -1921,46 +1982,92 @@
             }
 
             const SCORE_RANGES = {
-                today:   { max: 22000,  min: 900 },
-                week:    { max: 48000,  min: 2200 },
-                month:   { max: 96000,  min: 5000 },
-                allTime: { max: 210000, min: 12000 }
+                today:   { max: 22000,  min: 80 },
+                week:    { max: 48000,  min: 160 },
+                month:   { max: 96000,  min: 240 },
+                allTime: { max: 210000, min: 320 }
             };
 
-            function buildEntries(period) {
-                const rng = mulberry32(seedFromString('2048zone_rank_' + period));
+            // Deterministic pool of `POOL_SIZE` competitors per period, sorted by score
+            // descending, following a smooth long-tail curve (a handful of very high
+            // scores, a long trail of modest ones) so a real player's score can be
+            // merged in at a believable rank instead of a disconnected random number.
+            const poolCache = new Map();
+            function buildPool(period) {
+                if (poolCache.has(period)) return poolCache.get(period);
+                const rng = mulberry32(seedFromString('2048zone_pool_' + period));
                 const range = SCORE_RANGES[period] || SCORE_RANGES.today;
-                const shuffled = [...NICKNAMES].sort(() => rng() - 0.5).slice(0, 15);
-                const scores = [];
-                let last = range.max;
-                for (let i = 0; i < shuffled.length; i++) {
-                    const dropRatio = 0.06 + rng() * 0.10;
-                    last = i === 0 ? range.max : Math.max(range.min, Math.round(last * (1 - dropRatio)));
-                    scores.push(last);
+
+                const names = [];
+                for (let i = 0; i < POOL_SIZE; i++) {
+                    const base = NICKNAMES[i % NICKNAMES.length];
+                    const cycle = Math.floor(i / NICKNAMES.length);
+                    names.push(cycle === 0 ? base : `${base}${cycle + 1}`);
                 }
-                return shuffled.map((nickname, i) => ({ rank: i + 1, nickname, score: scores[i] }));
+                for (let i = names.length - 1; i > 0; i--) {
+                    const j = Math.floor(rng() * (i + 1));
+                    [names[i], names[j]] = [names[j], names[i]];
+                }
+
+                const scores = [];
+                for (let i = 0; i < POOL_SIZE; i++) {
+                    const t = i / (POOL_SIZE - 1);
+                    const curve = Math.pow(1 - t, 1.7);
+                    const noise = 0.9 + rng() * 0.2;
+                    const score = Math.round(range.min + (range.max - range.min) * curve * noise);
+                    scores.push(Math.max(range.min, score));
+                }
+                scores.sort((a, b) => b - a);
+
+                const pool = scores.map((score, i) => ({ nickname: names[i], score }));
+                poolCache.set(period, pool);
+                return pool;
             }
 
-            function buildCurrentPlayer(period, nickname, realBestScore) {
-                const rng = mulberry32(seedFromString('2048zone_player_' + period + '_' + nickname));
-                const rank = 60 + Math.floor(rng() * 900);
-                const score = realBestScore > 0 ? realBestScore : Math.round(400 + rng() * 4000);
-                return { rank, nickname, score };
+            // Merges the real player into the pool at the position their score
+            // actually earns, so "your rank" and the visible list always agree.
+            function mergePlayer(period, nickname, score) {
+                const pool = buildPool(period);
+                const displayName = nickname || 'You';
+                let index = pool.findIndex(p => score > p.score);
+                if (index === -1) index = pool.length;
+                const combined = pool.slice();
+                combined.splice(index, 0, { nickname: displayName, score, isMe: true });
+                return { combined, myIndex: index, totalPlayers: combined.length };
+            }
+
+            function toRow(entry, i) {
+                return { rank: i + 1, nickname: entry.nickname, score: entry.score, isMe: !!entry.isMe };
+            }
+
+            function buildRows(combined, myIndex) {
+                const top = combined.slice(0, TOP_COUNT).map(toRow);
+                if (myIndex < TOP_COUNT) return top;
+
+                const windowStart = Math.max(TOP_COUNT, myIndex - WINDOW_RADIUS);
+                const windowEnd = Math.min(combined.length, myIndex + WINDOW_RADIUS + 1);
+                const windowRows = combined.slice(windowStart, windowEnd).map((e, i) => toRow(e, windowStart + i));
+
+                const rows = top.slice();
+                if (windowStart > TOP_COUNT) rows.push({ divider: true });
+                return rows.concat(windowRows);
             }
 
             // GET /api/leaderboard?period=... — simulated network delay + occasional failure
             function getLeaderboard(period, nickname, realBestScore) {
                 return new Promise((resolve, reject) => {
-                    const delay = 500 + Math.random() * 500;
+                    const delay = 400 + Math.random() * 450;
                     setTimeout(() => {
-                        if (window.__forceRankingError || Math.random() < 0.08) {
+                        if (window.__forceRankingError || Math.random() < 0.06) {
                             reject(new Error('Network error while fetching leaderboard'));
                             return;
                         }
+                        const { combined, myIndex, totalPlayers } = mergePlayer(period, nickname, Math.max(0, realBestScore || 0));
                         resolve({
                             period,
-                            entries: buildEntries(period),
-                            currentPlayer: buildCurrentPlayer(period, nickname || 'Player', realBestScore || 0)
+                            totalPlayers,
+                            rows: buildRows(combined, myIndex),
+                            currentPlayer: toRow(combined[myIndex], myIndex)
                         });
                     }, delay);
                 });
@@ -2125,7 +2232,11 @@
         const TRACK_GAP = 16;
 
         function trackOffsetForIndex(index) {
-            const w = screensViewportEl.clientWidth;
+            // Measure an actual slide's width rather than the viewport's clientWidth:
+            // the viewport can carry its own padding (desktop card layout), which
+            // would otherwise throw the translateX math off and leak a sliver of
+            // the neighboring screen into view.
+            const w = screensTrackEl.children[0].getBoundingClientRect().width;
             return -(index * (w + TRACK_GAP));
         }
 
@@ -2160,6 +2271,20 @@
         const joinRankModal = document.getElementById('join-rank-modal');
         let currentPeriod = 'today';
 
+        // Remembers the best score the player has already "celebrated" on the rank
+        // screen, so the scroll-to-you + highlight animation only plays once per
+        // new personal best — not on every visit.
+        const RANK_SEEN_KEY = '2048zone_rank_seen_best';
+        let pendingCelebration = false;
+
+        function shouldCelebrate() {
+            const seen = parseInt(localStorage.getItem(RANK_SEEN_KEY)) || 0;
+            return bestScore > 0 && bestScore > seen;
+        }
+        function markCelebrationSeen() {
+            try { localStorage.setItem(RANK_SEEN_KEY, bestScore); } catch (e) { /* storage unavailable */ }
+        }
+
         function skeletonHTML() {
             return `<div class="rank-skeleton">
                 <div class="skel-block skel-your-rank"></div>
@@ -2167,23 +2292,63 @@
             </div>`;
         }
 
-        function renderLeaderboard(data) {
+        function rankRowHTML(e) {
+            if (e.divider) return `<li class="rank-divider" aria-hidden="true">⋯</li>`;
+            const cls = (e.rank <= 3 ? ` top-${e.rank}` : '') + (e.isMe ? ' is-me' : '');
+            return `<li class="rank-row${cls}"${e.isMe ? ' id="my-rank-row"' : ''}><span class="rank-pos">${e.rank}</span><span class="rank-nick">${escapeHtml(e.nickname)}</span><span class="rank-score">${e.score.toLocaleString()}</span></li>`;
+        }
+
+        function renderLeaderboard(data, celebrate) {
             const cp = data.currentPlayer;
-            const rows = data.entries.map(e => {
-                const cls = e.rank <= 3 ? ` top-${e.rank}` : '';
-                return `<li class="rank-row${cls}"><span class="rank-pos">${e.rank}</span><span class="rank-nick">${escapeHtml(e.nickname)}</span><span class="rank-score">${e.score.toLocaleString()}</span></li>`;
-            }).join('');
+            const rows = data.rows.map(rankRowHTML).join('');
             rankBody.innerHTML = `
-                <div class="your-rank-card">
+                <div class="your-rank-card" id="your-rank-card">
                     <div class="your-rank-label">YOUR RANK</div>
                     <div class="your-rank-main">
-                        <span class="your-rank-num">#${cp.rank}</span>
+                        <span class="your-rank-num">#${cp.rank.toLocaleString()}</span>
                         <span class="your-rank-nick">${escapeHtml(cp.nickname)}</span>
                         <span class="your-rank-score">${cp.score.toLocaleString()}</span>
                     </div>
+                    <div class="your-rank-sub">out of ${data.totalPlayers.toLocaleString()} players</div>
                 </div>
                 <ul class="rank-list">${rows}</ul>
             `;
+            if (celebrate) celebrateNewRank(cp.rank);
+        }
+
+        function celebrateNewRank(rank) {
+            const target = document.getElementById('my-rank-row') || document.getElementById('your-rank-card');
+            if (!target) return;
+            requestAnimationFrame(() => {
+                // Scroll only the rank screen's own scroll container — a plain
+                // scrollIntoView() can walk up and drag the whole page's scroll
+                // position along with it, which then leaks into every other screen.
+                const container = document.getElementById('screen-rank');
+                const targetCenter = target.offsetTop + target.offsetHeight / 2;
+                const top = Math.max(0, targetCenter - container.clientHeight / 2);
+                container.scrollTo({ top, behavior: 'smooth' });
+
+                target.classList.add('rank-celebrate');
+                showRankToast(`New best! You're now #${rank.toLocaleString()}`);
+                setTimeout(() => target.classList.remove('rank-celebrate'), 1800);
+            });
+        }
+
+        let rankToastTimer = null;
+        function showRankToast(text) {
+            let toast = document.getElementById('rank-toast');
+            if (!toast) {
+                toast = document.createElement('div');
+                toast.id = 'rank-toast';
+                toast.className = 'rank-toast';
+                document.body.appendChild(toast);
+            }
+            toast.textContent = `🎉 ${text}`;
+            clearTimeout(rankToastTimer);
+            toast.classList.remove('show');
+            void toast.offsetWidth;
+            toast.classList.add('show');
+            rankToastTimer = setTimeout(() => toast.classList.remove('show'), 2600);
         }
 
         function renderRankError() {
@@ -2199,10 +2364,13 @@
 
         function loadRanking(period, force = false) {
             currentPeriod = period;
+            const celebrate = pendingCelebration;
+            pendingCelebration = false;
             rankBody.innerHTML = skeletonHTML();
             RankingService.getLeaderboard(period, { force }).then(data => {
                 if (period !== currentPeriod) return; // a newer tab was selected meanwhile
-                renderLeaderboard(data);
+                renderLeaderboard(data, celebrate);
+                if (celebrate) markCelebrationSeen();
             }).catch(() => {
                 if (period !== currentPeriod) return;
                 renderRankError();
@@ -2223,6 +2391,7 @@
                 joinRankModal.style.display = 'flex';
                 return;
             }
+            pendingCelebration = shouldCelebrate();
             loadRanking(currentPeriod);
         }
 
@@ -2240,6 +2409,7 @@
                 joinNicknameError.textContent = '';
                 joinNicknameContinue.disabled = false;
                 refreshProfileNicknameHeader();
+                pendingCelebration = shouldCelebrate();
                 loadRanking(currentPeriod);
             }).catch(err => {
                 joinNicknameError.textContent = err.message;
