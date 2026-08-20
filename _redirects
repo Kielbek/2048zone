@@ -1,0 +1,12 @@
+# Clean-URL routing for 2048zone.com (Netlify/Render/Cloudflare Pages "_redirects" format).
+# Legal pages (all live in info.html, language + page type resolved client-side):
+/:lang/privacy   /info.html   200
+/:lang/terms     /info.html   200
+/:lang/contact   /info.html   200
+/privacy         /info.html   200
+/terms           /info.html   200
+/contact         /info.html   200
+
+# Localized game URLs (index.html resolves the language client-side from the path):
+/:lang/*         /index.html  200
+/                /index.html  200
