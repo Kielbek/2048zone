@@ -234,6 +234,10 @@
         .score-box span { display: block; font-size: 17px; font-weight: 800; color: white; margin-top: 2px; }
 
         .right-header { order: 2; display: flex; align-items: center; }
+        /* Groups score+newgame together only for the desktop header layout; on mobile
+           this wrapper is invisible to layout so .center-header/.right-header keep
+           wrapping via their own `order` exactly as before. */
+        .header-right-group { display: contents; }
         .new-game-btn { background: var(--btn-bg); border-radius: 8px; padding: 11px 16px; color: white; font-weight: 700; cursor: pointer; border: none; font-size: 13px; transition: all 0.15s ease; white-space: nowrap; box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 5px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 8px 14px rgba(0,0,0,0.25); transform: translateY(0); }
         .new-game-btn:hover { background: var(--btn-hover); transform: translateY(-2px); box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 7px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 12px 18px rgba(0,0,0,0.3); }
         .new-game-btn:active { transform: translateY(3px); box-shadow: 0 1px 0 rgba(255,255,255,0.2) inset, 0 2px 0 color-mix(in srgb, var(--btn-bg) 55%, black), 0 4px 8px rgba(0,0,0,0.2); }
@@ -800,19 +804,28 @@
         .nav-item.active { color: #ffffff; background: rgba(255,255,255,0.1); }
         .nav-item.active .nav-icon { transform: translateY(-1px) scale(1.08); }
 
-        /* ===== DESKTOP TABS: a row of Rank/Play/Profile tabs built into each screen's
-           own header (not a separate floating bar) so every screen has one unified
-           header block. Hidden on mobile; shown by the desktop media query below. ===== */
-        .desktop-tabs {
-            display: none;
-            width: 100%; gap: 6px; margin-bottom: 12px;
-        }
+        /* ===== DESKTOP TABS: a compact Rank/Play/Profile tab group sitting inline in
+           the middle of the app header (between the brand and the score/New Game
+           group), not a separate floating bar. Hidden on mobile; shown (as an inline
+           flex group) by the desktop media query below. ===== */
+        .desktop-tabs { display: none; gap: 4px; }
+        /* Icon-only pills by default; the label only unfolds on hover/focus so the
+           tab strip stays compact until you actually reach for it. */
         .desktop-tabs .nav-item {
-            flex: 1; flex-direction: row; justify-content: center; gap: 7px;
-            color: var(--text-color); opacity: 0.6; padding: 8px 8px; border-radius: 9px;
-            font-size: 10.5px;
+            flex-direction: row; align-items: center; justify-content: center;
+            color: var(--text-color); opacity: 0.6; padding: 10px; border-radius: 9px;
+            font-size: 11px;
         }
-        .desktop-tabs .nav-item .nav-icon { width: 16px; height: 16px; fill: currentColor; }
+        .desktop-tabs .nav-item .nav-icon { width: 18px; height: 18px; fill: currentColor; flex-shrink: 0; }
+        .desktop-tabs .nav-item span {
+            display: inline-block; max-width: 0; margin-left: 0; opacity: 0;
+            overflow: hidden; white-space: nowrap;
+            transition: max-width 0.25s ease, margin-left 0.25s ease, opacity 0.18s ease;
+        }
+        .desktop-tabs .nav-item:hover span,
+        .desktop-tabs .nav-item:focus-visible span {
+            max-width: 80px; margin-left: 7px; opacity: 1;
+        }
         .desktop-tabs .nav-item:hover { opacity: 0.85; }
         .desktop-tabs .nav-item.active {
             background: var(--btn-bg); color: #fff; opacity: 1;
@@ -951,93 +964,100 @@
 
         @media screen and (max-width: 759px) {
             body { padding-bottom: 100px; } /* clearance for the floating bottom-nav dock */
+            /* The header now lives outside the sliding screens (so desktop can keep it
+               visible everywhere); on mobile, keep the original behavior of only
+               showing it while the Play screen is active. */
+            body:not([data-screen="play"]) #app-header { display: none; }
         }
 
         /* Moved to the end so its declarations win the cascade over same-specificity
            rules defined later in the stylesheet (e.g. .top-nav, .bottom-nav, .screens-track). */
         @media screen and (min-width: 760px) {
-            :root { --app-width: 460px; }
-            body { padding: 48px 20px 60px; }
-            body::before {
-                content: "";
-                position: fixed;
-                inset: 0;
-                z-index: -1;
-                background:
-                    radial-gradient(circle at 50% 0%, color-mix(in srgb, var(--board-bg) 22%, transparent) 0%, transparent 60%),
-                    var(--bg-color);
-                transition: background 0.4s ease;
-            }
-            .screens-viewport {
-                background: var(--widget-bg);
-                border-radius: 28px;
-                padding: 30px 26px 26px;
-                box-shadow:
-                    0 1px 0 rgba(255,255,255,0.4) inset,
-                    0 24px 0 rgba(0,0,0,0.02),
-                    0 30px 60px rgba(0,0,0,0.16),
-                    0 10px 24px rgba(0,0,0,0.08);
-                min-height: 660px;
-            }
-            /* Desktop gets one unified header per screen (tabs built into the same
-               box as the title/score row) instead of the mobile floating dock, and
-               instant screen switches instead of the swipe-style slide — a bottom
-               nav + carousel is a phone pattern, not a desktop one. */
+            :root { --app-width: 520px; }
+            body { padding: 28px 32px 60px; }
+
+            /* Desktop gets a real desktop layout: a wide header bar (brand on the far
+               left, tabs and score/actions spread across it) sitting flush on the flat
+               page background — not a phone column wrapped in a card — with a
+               moderately larger, centered board below it. Screen switches are instant
+               instead of the swipe-style slide, since a carousel gesture doesn't make
+               sense with a mouse, and the bottom dock is replaced by the tabs in the
+               header (reachable from any screen, since the header now lives outside
+               the sliding screens). */
             .bottom-nav { display: none; }
-            .desktop-tabs { display: flex; }
             .screens-track { transition: none; }
 
-            .header, .screen-header {
-                background: var(--cell-bg);
-                border-radius: 16px;
-                padding: 14px 16px 16px;
-                margin-bottom: 18px;
+            .header {
+                max-width: 1100px;
+                margin: 0 auto 28px;
             }
-            .header { flex-direction: column; } /* stack .desktop-tabs above .header-normal instead of side by side */
-            .screen-title { margin-top: 2px; }
+            .header-normal { justify-content: space-between; }
+            .left-header { order: 1; }
+            .desktop-tabs { display: flex; gap: 4px; order: 2; }
+            .header-right-group { display: flex; align-items: center; gap: 18px; order: 3; }
+
+            .screen-header { margin-bottom: 10px; }
+
+            /* Power-up buttons drop the dark embossed pill tray for a flatter, lighter
+               row of icon buttons that sits directly on the page, matching the rest of
+               the desktop chrome instead of looking like a mobile widget. */
+            .powerups-widget {
+                background: transparent; box-shadow: none; padding: 0;
+                justify-content: center; gap: 22px;
+            }
+            .powerup-card {
+                width: 56px; height: 56px;
+                background: var(--cell-bg); background-image: none;
+                box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset, 0 3px 10px rgba(0,0,0,0.1);
+            }
+            .powerup-card:hover:not(:disabled) { box-shadow: 0 1px 0 rgba(255,255,255,0.5) inset, 0 5px 14px rgba(0,0,0,0.14); }
+            .powerup-card:active:not(:disabled) { box-shadow: 0 1px 4px rgba(0,0,0,0.15) inset; }
+            .powerup-card.active { box-shadow: 0 1px 6px rgba(0,0,0,0.2) inset; }
+            .powerup-card svg { fill: var(--btn-bg); stroke: var(--btn-bg); }
+            .badge-count { background: var(--btn-bg); border-color: var(--bg-color); }
+            .dots-indicator { display: none; }
         }
 
     </style>
 </head>
-<body>
-    <div class="screens-viewport" id="screens-viewport">
-    <div class="screens-clip">
-    <div class="screens-track" id="screens-track">
-    <div class="screen" id="screen-play" data-screen="play">
-        <!-- Header -->
+<body data-screen="play">
+    <!-- App header: lives outside the sliding screens so it can stay visible on
+         desktop no matter which screen (Rank/Play/Profile) is active. On mobile
+         it's hidden unless Play is the active screen (see body[data-screen] rule),
+         matching the original phone behavior. -->
     <div class="header" id="app-header">
-        <!-- Desktop-only tab row: this same block is repeated inside each screen's own
-             header, so Rank/Play/Profile stay reachable and every screen shows one
-             unified header instead of a separate floating nav bar. -->
-        <div class="desktop-tabs">
-            <button class="nav-item" data-screen="rank" id="nav-rank-h1">
-                <svg class="nav-icon" viewBox="0 0 24 24"><path d="M5 3h14v2h2v3a4 4 0 0 1-4 4h-.26A6 6 0 0 1 13 15.86V18h3v2H8v-2h3v-2.14A6 6 0 0 1 7.26 12H7a4 4 0 0 1-4-4V5h2V3zm0 4H4v1a2 2 0 0 0 2 2V7zm14 0v3a2 2 0 0 0 2-2V7h-2z"/></svg>
-                <span>Rank</span>
-            </button>
-            <button class="nav-item active" data-screen="play" id="nav-play-h1">
-                <svg class="nav-icon" viewBox="0 0 24 24"><path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2zM2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8zM2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z"/></svg>
-                <span>Play</span>
-            </button>
-            <button class="nav-item" data-screen="profile" id="nav-profile-h1">
-                <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
-                <span>Profile</span>
-            </button>
-        </div>
         <div class="header-normal">
             <div class="left-header">
                 <div class="menu-icon" id="open-menu" title="Menu & Modes">☰</div>
                 <h1>2048</h1>
             </div>
 
-            <div class="center-header">
-                <div class="scores-container">
-                    <div class="score-box">SCORE <span id="score">0</span></div>
-                    <div class="score-box">BEST <span id="best-score">0</span></div>
-                </div>
+            <div class="desktop-tabs">
+                <button class="nav-item" data-screen="rank" id="nav-rank-h1">
+                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M5 3h14v2h2v3a4 4 0 0 1-4 4h-.26A6 6 0 0 1 13 15.86V18h3v2H8v-2h3v-2.14A6 6 0 0 1 7.26 12H7a4 4 0 0 1-4-4V5h2V3zm0 4H4v1a2 2 0 0 0 2 2V7zm14 0v3a2 2 0 0 0 2-2V7h-2z"/></svg>
+                    <span>Rank</span>
+                </button>
+                <button class="nav-item active" data-screen="play" id="nav-play-h1">
+                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2zM2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8zM2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z"/></svg>
+                    <span>Play</span>
+                </button>
+                <button class="nav-item" data-screen="profile" id="nav-profile-h1">
+                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
+                    <span>Profile</span>
+                </button>
             </div>
 
-            <div class="right-header">
-                <button class="new-game-btn" id="restart-btn">New Game</button>
+            <div class="header-right-group">
+                <div class="center-header">
+                    <div class="scores-container">
+                        <div class="score-box">SCORE <span id="score">0</span></div>
+                        <div class="score-box">BEST <span id="best-score">0</span></div>
+                    </div>
+                </div>
+
+                <div class="right-header">
+                    <button class="new-game-btn" id="restart-btn">New Game</button>
+                </div>
             </div>
         </div>
 
@@ -1048,6 +1068,10 @@
         </div>
     </div>
 
+    <div class="screens-viewport" id="screens-viewport">
+    <div class="screens-clip">
+    <div class="screens-track" id="screens-track">
+    <div class="screen" id="screen-play" data-screen="play">
     <div class="container">
         <!-- Board -->
         <div class="grid-container" id="grid-container">
@@ -1114,23 +1138,7 @@
 
     <!-- RANK SCREEN -->
     <div class="screen" id="screen-rank" data-screen="rank">
-        <div class="screen-header">
-            <div class="desktop-tabs">
-                <button class="nav-item" data-screen="rank" id="nav-rank-h2">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M5 3h14v2h2v3a4 4 0 0 1-4 4h-.26A6 6 0 0 1 13 15.86V18h3v2H8v-2h3v-2.14A6 6 0 0 1 7.26 12H7a4 4 0 0 1-4-4V5h2V3zm0 4H4v1a2 2 0 0 0 2 2V7zm14 0v3a2 2 0 0 0 2-2V7h-2z"/></svg>
-                    <span>Rank</span>
-                </button>
-                <button class="nav-item" data-screen="play" id="nav-play-h2">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2zM2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8zM2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z"/></svg>
-                    <span>Play</span>
-                </button>
-                <button class="nav-item" data-screen="profile" id="nav-profile-h2">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
-                    <span>Profile</span>
-                </button>
-            </div>
-            <h2 class="screen-title">🏆 Leaderboard</h2>
-        </div>
+        <div class="screen-header"><h2 class="screen-title">🏆 Leaderboard</h2></div>
         <div class="period-tabs" id="period-tabs">
             <button class="period-tab active" data-period="today">Today</button>
             <button class="period-tab" data-period="week">Week</button>
@@ -1142,23 +1150,7 @@
 
     <!-- PROFILE SCREEN -->
     <div class="screen" id="screen-profile" data-screen="profile">
-        <div class="screen-header">
-            <div class="desktop-tabs">
-                <button class="nav-item" data-screen="rank" id="nav-rank-h3">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M5 3h14v2h2v3a4 4 0 0 1-4 4h-.26A6 6 0 0 1 13 15.86V18h3v2H8v-2h3v-2.14A6 6 0 0 1 7.26 12H7a4 4 0 0 1-4-4V5h2V3zm0 4H4v1a2 2 0 0 0 2 2V7zm14 0v3a2 2 0 0 0 2-2V7h-2z"/></svg>
-                    <span>Rank</span>
-                </button>
-                <button class="nav-item" data-screen="play" id="nav-play-h3">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M2 2h4v4H2V2zm6 0h4v4H8V2zm6 0h4v4h-4V2zM2 8h4v4H2V8zm6 0h4v4H8V8zm6 0h4v4h-4V8zM2 14h4v4H2v-4zm6 0h4v4H8v-4zm6 0h4v4h-4v-4z"/></svg>
-                    <span>Play</span>
-                </button>
-                <button class="nav-item" data-screen="profile" id="nav-profile-h3">
-                    <svg class="nav-icon" viewBox="0 0 24 24"><path d="M12 12a5 5 0 1 0 0-10 5 5 0 0 0 0 10zm0 2c-4.4 0-8 2.2-8 5v1h16v-1c0-2.8-3.6-5-8-5z"/></svg>
-                    <span>Profile</span>
-                </button>
-            </div>
-            <h2 class="screen-title">Profile</h2>
-        </div>
+        <div class="screen-header"><h2 class="screen-title">Profile</h2></div>
         <div class="profile-card">
             <div class="profile-avatar">👤</div>
             <div class="profile-nickname" id="profile-nickname">Guest</div>
@@ -1558,7 +1550,11 @@
             });
         });
 
-        restartBtn.addEventListener('click', () => { confirmModal.style.display = 'flex'; Sound.click(); });
+        restartBtn.addEventListener('click', () => {
+            if (currentScreen !== 'play') switchScreen('play'); // the confirm dialog renders over the board, so make sure it's showing
+            confirmModal.style.display = 'flex';
+            Sound.click();
+        });
         confirmNo.addEventListener('click', () => { confirmModal.style.display = 'none'; Sound.click(); });
         confirmYes.addEventListener('click', () => { confirmModal.style.display = 'none'; startGame(); });
         tryAgainBtn.addEventListener('click', startGame);
@@ -2389,6 +2385,7 @@
 
             document.querySelectorAll('.nav-item').forEach(btn => btn.classList.toggle('active', btn.dataset.screen === target));
             currentScreen = target;
+            document.body.dataset.screen = target; // drives the mobile-only "hide header unless Play" rule
 
             if (target === 'rank') onEnterRank();
             else if (target === 'profile') onEnterProfile();
