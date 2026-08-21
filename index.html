@@ -8,7 +8,7 @@
     <meta name="keywords" content="2048 game, play 2048, online puzzle, 2048 powerups, 2048 chaos mode">
     <meta name="robots" content="index, follow">
     <meta name="theme-color" content="#8f7a66">
-    <link rel="canonical" href="https://2048zone.com/">
+    <link rel="canonical" href="https://2048zone.com/" id="page-canonical">
     <link rel="icon" type="image/png" href="/2048-logo.png">
 
     <meta property="og:type" content="website">
@@ -22,6 +22,7 @@
     <meta name="twitter:description" content="Play the premium 2048 puzzle game online for free. Enjoy 3D tiles, power-ups, Classic/3x3/5x5/Chaos modes, dark &amp; neon themes, and a live leaderboard." id="twitter-desc">
     <meta name="twitter:image" content="https://2048zone.com/2048-logo.png">
 
+    <span id="hreflang-container">
     <link rel="alternate" hreflang="en" href="https://2048zone.com/en/">
     <link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/">
     <link rel="alternate" hreflang="de" href="https://2048zone.com/de/">
@@ -43,6 +44,7 @@
     <link rel="alternate" hreflang="el" href="https://2048zone.com/el/">
     <link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/">
     <link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/">
+    </span>
 
     <script type="application/ld+json">
     {
@@ -1352,6 +1354,133 @@
             el: { title: "Παιχνίδι 2048 – Premium", desc: "Παίξτε 2048 δωρεάν online: ενισχύσεις, ταμπλό 4x4/3x3/5x5, λειτουργία Χάος, σκούρα & neon θέματα, και ζωντανή κατάταξη. Χωρίς λήψη ή εγγραφή.", keys: "παιχνίδι 2048, 2048 online, ενισχύσεις 2048, λειτουργία χάος 2048, κατάταξη 2048", score: "ΒΑΘΜΟΛΟΓΙΑ", best: "ΚΑΛΥΤΕΡΗ", newGame: "Νέο Παιχνίδι", confirm: "Επανεκκίνηση;", yes: "Ναι", no: "Όχι", gameOver: "Τέλος!", tryAgain: "Ξανά", feedback: "Give Feedback", closeMenu: "Κλείσιμο", palette: "Χρώματα", langLbl: "Γλώσσα", fbTitle: "Τα σχόλιά σας", fbDesc: "Μοιραστείτε τις σκέψεις σας ή αναφέρετε σφάλματα:", fbSend: "Αποστολή", fbCancel: "Άκυρο", menuTitle: "Λειτουργία", privacy: "Πολιτική Απορρήτου", terms: "Όροι Χρήσης", contact: "Επικοινωνία" },
             cs: { title: "Hra 2048 – Premium", desc: "Hrajte 2048 zdarma online: power-upy, desky 4x4/3x3/5x5, režim Chaos, tmavé a neonové motivy a živý žebříček. Bez stahování a registrace.", keys: "hra 2048, 2048 online, 2048 power-upy, 2048 režim chaos, 2048 žebříček", score: "SKÓRE", best: "NEJLEPŠÍ", newGame: "Nová Hra", confirm: "Začít znovu?", yes: "Ano", no: "Ne", gameOver: "Konec!", tryAgain: "Znovu", feedback: "Zpětná vazba", closeMenu: "Zavřít", palette: "Barvy", langLbl: "Jazyk", fbTitle: "Vaše zpětná vazba", fbDesc: "Podělte se o názor nebo nahlaste chybu:", fbSend: "Odeslat", fbCancel: "Zrušit", menuTitle: "Režim", privacy: "Zásady ochrany osobních údajů", terms: "Podmínky použití", contact: "Kontakt" }
         };
+
+        // Per-mode SEO title/description, keyed by language then mode slug. Used only
+        // when the URL points at a specific mode (see MODE_SLUGS / applyModeFromUrl
+        // below) — the general seoData above covers the plain homepage.
+        const modeSeoData = {
+            en: {
+                classic: { title: "2048 Classic Mode – 4x4 Board Online", desc: "Play the original 2048 on a 4x4 board with power-ups, undo, dark/neon themes, and a live leaderboard. Free, no download, no sign-up." },
+                small:   { title: "2048 3x3 Mode – Small Board Online", desc: "Play 2048 on a tight 3x3 board — fewer tiles and much less room to plan your moves. A tougher, faster puzzle. Free to play online." },
+                big:     { title: "2048 5x5 Mode – Big Board Online", desc: "Play 2048 on a roomy 5x5 board with more space to set up big merges before things get crowded. Free, with power-ups and themes." },
+                chaos:   { title: "2048 Chaos Mode – Play Online Free", desc: "Play 2048 Chaos Mode: two new tiles spawn after every move instead of one, for a faster and much harder version of the classic puzzle." }
+            },
+            pl: {
+                classic: { title: "2048 Classic – Plansza 4x4 Online", desc: "Zagraj w oryginalne 2048 na planszy 4x4 z power-upami, cofaniem ruchu, motywami dark/neon i rankingiem graczy. Za darmo, bez pobierania." },
+                small:   { title: "2048 3x3 – Mała Plansza Online", desc: "Zagraj w 2048 na ciasnej planszy 3x3 — mniej kafelków i dużo mniej miejsca na planowanie ruchów. Trudniejsza, szybsza rozgrywka. Za darmo." },
+                big:     { title: "2048 5x5 – Duża Plansza Online", desc: "Zagraj w 2048 na przestronnej planszy 5x5, z większą ilością miejsca na budowanie kombinacji. Za darmo, z power-upami i motywami." },
+                chaos:   { title: "2048 Tryb Chaos – Zagraj Online Za Darmo", desc: "Zagraj w 2048 w trybie Chaos: po każdym ruchu pojawiają się dwa nowe kafelki zamiast jednego — szybsza i znacznie trudniejsza odmiana klasyki." }
+            },
+            de: {
+                classic: { title: "2048 Classic – 4x4 Spielfeld Online", desc: "Spielen Sie das originale 2048 auf einem 4x4-Feld mit Power-ups, Rückgängig, Dark-/Neon-Themes und einer Bestenliste. Kostenlos, kein Download." },
+                small:   { title: "2048 3x3 – Kleines Spielfeld Online", desc: "Spielen Sie 2048 auf einem engen 3x3-Feld — weniger Steine, viel weniger Platz zum Planen. Schwieriger und schneller. Kostenlos online." },
+                big:     { title: "2048 5x5 – Großes Spielfeld Online", desc: "Spielen Sie 2048 auf einem geräumigen 5x5-Feld mit mehr Platz für große Kombinationen. Kostenlos, mit Power-ups und Themes." },
+                chaos:   { title: "2048 Chaos-Modus – Kostenlos Online Spielen", desc: "Spielen Sie den 2048 Chaos-Modus: Nach jedem Zug erscheinen zwei neue Steine statt einem — eine schnellere, deutlich schwerere Variante." }
+            },
+            fr: {
+                classic: { title: "2048 Classique – Grille 4x4 en Ligne", desc: "Jouez au 2048 original sur une grille 4x4 avec bonus, annuler, thèmes sombre/néon et un classement en direct. Gratuit, sans téléchargement." },
+                small:   { title: "2048 3x3 – Petite Grille en Ligne", desc: "Jouez au 2048 sur une grille serrée en 3x3 — moins de cases et bien moins de marge de manœuvre. Plus difficile et plus rapide. Gratuit." },
+                big:     { title: "2048 5x5 – Grande Grille en Ligne", desc: "Jouez au 2048 sur une grille spacieuse en 5x5, avec plus de place pour préparer de grosses fusions. Gratuit, avec bonus et thèmes." },
+                chaos:   { title: "2048 Mode Chaos – Jouez Gratuitement en Ligne", desc: "Jouez au 2048 en mode Chaos : deux nouvelles tuiles apparaissent à chaque coup au lieu d'une seule, pour une version plus rapide et plus difficile." }
+            },
+            es: {
+                classic: { title: "2048 Clásico – Tablero 4x4 Online", desc: "Juega al 2048 original en un tablero 4x4 con power-ups, deshacer, temas oscuro/neón y una clasificación en vivo. Gratis, sin descargas." },
+                small:   { title: "2048 3x3 – Tablero Pequeño Online", desc: "Juega al 2048 en un tablero ajustado de 3x3: menos fichas y mucho menos margen para planear. Más difícil y más rápido. Gratis." },
+                big:     { title: "2048 5x5 – Tablero Grande Online", desc: "Juega al 2048 en un tablero amplio de 5x5, con más espacio para preparar grandes fusiones. Gratis, con power-ups y temas." },
+                chaos:   { title: "2048 Modo Caos – Juega Gratis Online", desc: "Juega al 2048 en modo Caos: aparecen dos fichas nuevas en cada movimiento en lugar de una, para una versión más rápida y más difícil." }
+            },
+            it: {
+                classic: { title: "2048 Classico – Griglia 4x4 Online", desc: "Gioca all'originale 2048 su una griglia 4x4 con power-up, annulla, temi scuro/neon e una classifica in tempo reale. Gratis, senza download." },
+                small:   { title: "2048 3x3 – Griglia Piccola Online", desc: "Gioca a 2048 su una griglia stretta 3x3: meno caselle e molto meno spazio per pianificare. Più difficile e veloce. Gratis online." },
+                big:     { title: "2048 5x5 – Griglia Grande Online", desc: "Gioca a 2048 su una griglia spaziosa 5x5, con più spazio per preparare grandi fusioni. Gratis, con power-up e temi." },
+                chaos:   { title: "2048 Modalità Caos – Gioca Gratis Online", desc: "Gioca a 2048 in modalità Caos: due nuove tessere appaiono a ogni mossa invece di una, per una versione più veloce e molto più difficile." }
+            },
+            pt: {
+                classic: { title: "2048 Clássico – Tabuleiro 4x4 Online", desc: "Jogue o 2048 original num tabuleiro 4x4 com power-ups, desfazer, temas escuro/neon e um ranking ao vivo. Grátis, sem download." },
+                small:   { title: "2048 3x3 – Tabuleiro Pequeno Online", desc: "Jogue 2048 num tabuleiro apertado 3x3: menos peças e muito menos espaço para planear. Mais difícil e mais rápido. Grátis online." },
+                big:     { title: "2048 5x5 – Tabuleiro Grande Online", desc: "Jogue 2048 num tabuleiro amplo 5x5, com mais espaço para preparar grandes fusões. Grátis, com power-ups e temas." },
+                chaos:   { title: "2048 Modo Caos – Jogue Grátis Online", desc: "Jogue 2048 no modo Caos: surgem duas peças novas a cada jogada em vez de uma, para uma versão mais rápida e muito mais difícil." }
+            },
+            nl: {
+                classic: { title: "2048 Classic – 4x4 Bord Online", desc: "Speel het originele 2048 op een 4x4-bord met power-ups, ongedaan maken, dark/neon-thema's en een live ranglijst. Gratis, geen download." },
+                small:   { title: "2048 3x3 – Klein Bord Online", desc: "Speel 2048 op een krap 3x3-bord: minder tegels en veel minder ruimte om vooruit te plannen. Moeilijker en sneller. Gratis online." },
+                big:     { title: "2048 5x5 – Groot Bord Online", desc: "Speel 2048 op een ruim 5x5-bord met meer plek om grote combinaties op te bouwen. Gratis, met power-ups en thema's." },
+                chaos:   { title: "2048 Chaos-modus – Gratis Online Spelen", desc: "Speel 2048 Chaos-modus: na elke zet verschijnen twee nieuwe tegels in plaats van één, voor een snellere en veel lastigere versie." }
+            },
+            ru: {
+                classic: { title: "2048 Классика – Поле 4x4 Онлайн", desc: "Играйте в оригинальную 2048 на поле 4x4 с бонусами, отменой хода, тёмной/неоновой темами и живым рейтингом. Бесплатно, без скачивания." },
+                small:   { title: "2048 3x3 – Маленькое Поле Онлайн", desc: "Играйте в 2048 на тесном поле 3x3 — меньше плиток и намного меньше места для планирования. Сложнее и быстрее. Бесплатно онлайн." },
+                big:     { title: "2048 5x5 – Большое Поле Онлайн", desc: "Играйте в 2048 на просторном поле 5x5 с большим пространством для крупных слияний. Бесплатно, с бонусами и темами." },
+                chaos:   { title: "2048 Режим Хаос – Играть Бесплатно Онлайн", desc: "Играйте в 2048 в режиме Хаос: после каждого хода появляются две новые плитки вместо одной — быстрее и намного сложнее классики." }
+            },
+            ja: {
+                classic: { title: "2048クラシック – 4x4盤面をオンラインでプレイ", desc: "オリジナルの2048を4x4の盤面で。パワーアップ、元に戻す、ダーク/ネオンテーマ、リアルタイムランキング付き。無料、ダウンロード不要。" },
+                small:   { title: "2048 3x3 – 小さい盤面をオンラインでプレイ", desc: "2048を狭い3x3の盤面でプレイ。タイルが少なく、先を読む余地もぐっと減ります。より難しく、よりスピーディー。無料でオンラインプレイ。" },
+                big:     { title: "2048 5x5 – 大きい盤面をオンラインでプレイ", desc: "2048をゆとりある5x5の盤面でプレイ。大きな合体を仕込むスペースが広がります。無料、パワーアップとテーマ付き。" },
+                chaos:   { title: "2048カオスモード – 無料でオンラインプレイ", desc: "2048のカオスモードをプレイ。1回の操作ごとに新しいタイルが1枚ではなく2枚出現する、より速く難しいバリエーションです。" }
+            },
+            zh: {
+                classic: { title: "2048经典模式 – 4x4棋盘在线畅玩", desc: "在4x4棋盘上畅玩原版2048，配备道具增强、撤销、暗黑/霓虹主题和实时排行榜。免费，无需下载。" },
+                small:   { title: "2048 3x3模式 – 小棋盘在线畅玩", desc: "在紧凑的3x3棋盘上畅玩2048：方块更少，规划空间也大幅缩小，难度和节奏都更高。免费在线畅玩。" },
+                big:     { title: "2048 5x5模式 – 大棋盘在线畅玩", desc: "在宽敞的5x5棋盘上畅玩2048，有更多空间铺排大合并。免费，配备道具增强与主题。" },
+                chaos:   { title: "2048混沌模式 – 免费在线畅玩", desc: "畅玩2048混沌模式：每步操作后出现两个新方块而非一个，带来更快、更具挑战性的经典变体。" }
+            },
+            ko: {
+                classic: { title: "2048 클래식 – 4x4 보드 온라인 플레이", desc: "파워업, 실행 취소, 다크/네온 테마, 실시간 랭킹이 포함된 4x4 보드에서 오리지널 2048을 즐겨보세요. 무료, 다운로드 불필요." },
+                small:   { title: "2048 3x3 – 작은 보드 온라인 플레이", desc: "좁은 3x3 보드에서 2048을 플레이하세요. 타일이 적고 계획할 여지도 훨씬 줄어들어 더 어렵고 빠릅니다. 무료 온라인 플레이." },
+                big:     { title: "2048 5x5 – 큰 보드 온라인 플레이", desc: "넓은 5x5 보드에서 2048을 플레이하며 큰 합체를 준비할 공간을 더 확보하세요. 무료, 파워업과 테마 포함." },
+                chaos:   { title: "2048 카오스 모드 – 무료 온라인 플레이", desc: "2048 카오스 모드를 플레이하세요. 매 이동마다 새 타일이 하나 대신 두 개 생성되어 더 빠르고 훨씬 어려운 버전이 됩니다." }
+            },
+            tr: {
+                classic: { title: "2048 Klasik – 4x4 Tahta Çevrimiçi", desc: "Güçlendiriciler, geri alma, karanlık/neon temalar ve canlı sıralamayla orijinal 2048'i 4x4 tahtada oynayın. Ücretsiz, indirme yok." },
+                small:   { title: "2048 3x3 – Küçük Tahta Çevrimiçi", desc: "2048'i dar bir 3x3 tahtada oynayın: daha az taş ve planlamak için çok daha az alan. Daha zor ve daha hızlı. Ücretsiz oynayın." },
+                big:     { title: "2048 5x5 – Büyük Tahta Çevrimiçi", desc: "2048'i geniş bir 5x5 tahtada oynayın; büyük birleşimler hazırlamak için daha fazla alan. Ücretsiz, güçlendiriciler ve temalarla." },
+                chaos:   { title: "2048 Kaos Modu – Ücretsiz Çevrimiçi Oyna", desc: "2048 Kaos Modu'nu oynayın: her hamleden sonra bir yerine iki yeni taş belirir — klasik bulmacanın daha hızlı ve çok daha zor hâli." }
+            },
+            ar: {
+                classic: { title: "2048 الكلاسيكية – لوحة 4x4 أونلاين", desc: "العب لعبة 2048 الأصلية على لوحة 4x4 مع تعزيزات، تراجع، سمات داكنة/نيون، ولوحة متصدرين مباشرة. مجانًا، بدون تحميل." },
+                small:   { title: "2048 3x3 – لوحة صغيرة أونلاين", desc: "العب 2048 على لوحة ضيقة 3x3: مربعات أقل ومساحة أقل بكثير للتخطيط. أصعب وأسرع. العب مجانًا أونلاين." },
+                big:     { title: "2048 5x5 – لوحة كبيرة أونلاين", desc: "العب 2048 على لوحة واسعة 5x5 مع مساحة أكبر لتحضير دمجات كبيرة. مجانًا، مع تعزيزات وسمات." },
+                chaos:   { title: "2048 وضع الفوضى – العب مجانًا أونلاين", desc: "العب 2048 في وضع الفوضى: يظهر مربعان جديدان بعد كل حركة بدلاً من واحد، لنسخة أسرع وأصعب بكثير من اللعبة الكلاسيكية." }
+            },
+            hi: {
+                classic: { title: "2048 क्लासिक – 4x4 बोर्ड ऑनलाइन", desc: "पावर-अप, अनडू, डार्क/नियॉन थीम और लाइव रैंकिंग के साथ मूल 2048 को 4x4 बोर्ड पर खेलें। मुफ्त, डाउनलोड की जरूरत नहीं।" },
+                small:   { title: "2048 3x3 – छोटा बोर्ड ऑनलाइन", desc: "2048 को तंग 3x3 बोर्ड पर खेलें: कम टाइलें और योजना बनाने के लिए बहुत कम जगह। ज़्यादा कठिन और तेज़। मुफ्त ऑनलाइन खेलें।" },
+                big:     { title: "2048 5x5 – बड़ा बोर्ड ऑनलाइन", desc: "2048 को विशाल 5x5 बोर्ड पर खेलें, बड़े मर्ज तैयार करने के लिए ज़्यादा जगह के साथ। मुफ्त, पावर-अप और थीम के साथ।" },
+                chaos:   { title: "2048 कैओस मोड – मुफ्त ऑनलाइन खेलें", desc: "2048 कैओस मोड खेलें: हर चाल के बाद एक की जगह दो नई टाइलें दिखाई देती हैं — क्लासिक पहेली का तेज़ और कहीं अधिक कठिन रूप।" }
+            },
+            sv: {
+                classic: { title: "2048 Klassisk – 4x4 Bräde Online", desc: "Spela originalversionen av 2048 på ett 4x4-bräde med power-ups, ångra, mörkt/neonlila teman och en topplista i realtid. Gratis, ingen nedladdning." },
+                small:   { title: "2048 3x3 – Litet Bräde Online", desc: "Spela 2048 på ett trångt 3x3-bräde: färre brickor och mycket mindre utrymme att planera på. Svårare och snabbare. Spela gratis." },
+                big:     { title: "2048 5x5 – Stort Bräde Online", desc: "Spela 2048 på ett rymligt 5x5-bräde med mer plats att förbereda stora sammanslagningar. Gratis, med power-ups och teman." },
+                chaos:   { title: "2048 Kaosläge – Spela Gratis Online", desc: "Spela 2048 Kaosläge: två nya brickor dyker upp efter varje drag istället för en, för en snabbare och betydligt svårare variant." }
+            },
+            da: {
+                classic: { title: "2048 Klassisk – 4x4 Bræt Online", desc: "Spil det originale 2048 på et 4x4-bræt med power-ups, fortryd, mørkt/neon-tema og en liverangliste. Gratis, ingen download." },
+                small:   { title: "2048 3x3 – Lille Bræt Online", desc: "Spil 2048 på et snævert 3x3-bræt: færre brikker og langt mindre plads til at planlægge. Sværere og hurtigere. Spil gratis online." },
+                big:     { title: "2048 5x5 – Stort Bræt Online", desc: "Spil 2048 på et rummeligt 5x5-bræt med mere plads til at forberede store sammenlægninger. Gratis, med power-ups og temaer." },
+                chaos:   { title: "2048 Kaos-tilstand – Spil Gratis Online", desc: "Spil 2048 Kaos-tilstand: to nye brikker dukker op efter hvert træk i stedet for én — en hurtigere og langt sværere udgave." }
+            },
+            fi: {
+                classic: { title: "2048 Klassinen – 4x4 Lauta Verkossa", desc: "Pelaa alkuperäistä 2048:aa 4x4-laudalla tehosteiden, kumoamisen, tumman/neon-teeman ja reaaliaikaisen pisterankingin kanssa. Ilmainen, ei latauksia." },
+                small:   { title: "2048 3x3 – Pieni Lauta Verkossa", desc: "Pelaa 2048:aa ahtaalla 3x3-laudalla: vähemmän laattoja ja paljon vähemmän tilaa suunnitella. Vaikeampi ja nopeampi. Pelaa ilmaiseksi." },
+                big:     { title: "2048 5x5 – Iso Lauta Verkossa", desc: "Pelaa 2048:aa väljällä 5x5-laudalla, jossa on enemmän tilaa suurten yhdistelmien rakentamiseen. Ilmainen, tehosteineen ja teemoineen." },
+                chaos:   { title: "2048 Kaaos-tila – Pelaa Ilmaiseksi Verkossa", desc: "Pelaa 2048 Kaaos-tilaa: joka siirron jälkeen ilmestyy kaksi uutta laattaa yhden sijaan — nopeampi ja huomattavasti vaikeampi versio." }
+            },
+            el: {
+                classic: { title: "2048 Κλασικό – Ταμπλό 4x4 Online", desc: "Παίξτε το αυθεντικό 2048 σε ταμπλό 4x4 με ενισχύσεις, αναίρεση, σκούρο/neon θέμα και ζωντανή κατάταξη. Δωρεάν, χωρίς λήψη." },
+                small:   { title: "2048 3x3 – Μικρό Ταμπλό Online", desc: "Παίξτε 2048 σε στενό ταμπλό 3x3: λιγότερα πλακίδια και πολύ λιγότερος χώρος για σχεδιασμό. Πιο δύσκολο και γρήγορο. Δωρεάν online." },
+                big:     { title: "2048 5x5 – Μεγάλο Ταμπλό Online", desc: "Παίξτε 2048 σε ευρύχωρο ταμπλό 5x5, με περισσότερο χώρο για μεγάλους συνδυασμούς. Δωρεάν, με ενισχύσεις και θέματα." },
+                chaos:   { title: "2048 Λειτουργία Χάος – Παίξτε Δωρεάν Online", desc: "Παίξτε 2048 σε λειτουργία Χάος: δύο νέα πλακίδια εμφανίζονται μετά από κάθε κίνηση αντί για ένα — πιο γρήγορη και πολύ πιο δύσκολη εκδοχή." }
+            },
+            cs: {
+                classic: { title: "2048 Klasika – Deska 4x4 Online", desc: "Hrajte originální 2048 na desce 4x4 s power-upy, vrácením tahu, tmavým/neonovým motivem a živým žebříčkem. Zdarma, bez stahování." },
+                small:   { title: "2048 3x3 – Malá Deska Online", desc: "Hrajte 2048 na stísněné desce 3x3: méně dílků a mnohem méně prostoru na plánování. Obtížnější a rychlejší. Hrajte zdarma online." },
+                big:     { title: "2048 5x5 – Velká Deska Online", desc: "Hrajte 2048 na prostorné desce 5x5 s větším prostorem pro velké spojování. Zdarma, s power-upy a motivy." },
+                chaos:   { title: "2048 Režim Chaos – Hrajte Zdarma Online", desc: "Hrajte 2048 v režimu Chaos: po každém tahu se objeví dva nové dílky místo jednoho — rychlejší a mnohem těžší varianta klasiky." }
+            }
+        };
+        const MODE_SLUGS = ['classic', 'small', 'big', 'chaos'];
 
         function updateLanguage(lang) {
             document.documentElement.lang = lang;
@@ -2664,9 +2793,13 @@
 
         const pathSegments = window.location.pathname.split('/').filter(Boolean);
             const currentLang = pathSegments.length > 0 ? pathSegments[0] : 'en';
-            
+
             const supportedLanguages = ['en', 'pl', 'de', 'fr', 'es', 'it', 'pt', 'nl', 'ru', 'ja', 'zh', 'ko', 'tr', 'ar', 'hi', 'sv', 'da', 'fi', 'el', 'cs'];
-            
+            // Unprefixed English routes (/mode/chaos, /privacy, ...) leave pathSegments[0]
+            // as a non-language word like "mode" — resolvedLang is the real language to
+            // act on, falling back to English exactly like updateLanguage() already does.
+            const resolvedLang = supportedLanguages.includes(currentLang) ? currentLang : 'en';
+
             if (supportedLanguages.includes(currentLang)) {
                 if (langSelector) {
                     langSelector.value = currentLang;
@@ -2674,7 +2807,56 @@
                 updateLanguage(currentLang);
             }
 
-            if (!loadGameState()) {
+            // Mode landing pages (/mode/chaos, /pl/mode/chaos, ...): select that mode,
+            // swap in its own SEO title/description/canonical/hreflang, and start that
+            // mode fresh rather than resuming whatever was last saved.
+            function applyModeFromUrl(lang, segments) {
+                const modeIdx = segments.indexOf('mode');
+                const slug = modeIdx !== -1 ? segments[modeIdx + 1] : null;
+                if (!slug || !MODE_SLUGS.includes(slug)) return false;
+
+                const card = document.querySelector(`.menu-card[data-mode="${slug}"]`);
+                if (card) {
+                    menuCards.forEach(c => c.classList.remove('selected'));
+                    card.classList.add('selected');
+                }
+                currentMode = slug;
+                gridSize = slug === 'small' ? 3 : slug === 'big' ? 5 : 4;
+
+                const modeData = (modeSeoData[lang] || modeSeoData.en)[slug];
+                if (modeData) {
+                    const titleEl = document.getElementById('meta-title');
+                    if (titleEl) titleEl.textContent = `${modeData.title} | 2048zone.com`;
+                    const descEl = document.querySelector('meta[name="description"]');
+                    if (descEl) descEl.setAttribute('content', modeData.desc);
+                    const setAttr = (id, val) => { const el = document.getElementById(id); if (el) el.setAttribute('content', val); };
+                    setAttr('og-title', modeData.title);
+                    setAttr('og-desc', modeData.desc);
+                    setAttr('twitter-title', modeData.title);
+                    setAttr('twitter-desc', modeData.desc);
+                }
+
+                const pathFor = l => (l === 'en' ? '' : '/' + l) + '/mode/' + slug;
+                const canonicalUrl = `https://2048zone.com${pathFor(lang)}`;
+                const canonicalEl = document.getElementById('page-canonical');
+                if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
+                const ogUrlEl = document.getElementById('og-url');
+                if (ogUrlEl) ogUrlEl.setAttribute('content', canonicalUrl);
+
+                const hreflangHTML = supportedLanguages.map(l =>
+                    `<link rel="alternate" hreflang="${l}" href="https://2048zone.com${pathFor(l)}">`
+                ).join('') + `<link rel="alternate" hreflang="x-default" href="https://2048zone.com${pathFor('en')}">`;
+                const hreflangContainer = document.getElementById('hreflang-container');
+                if (hreflangContainer) hreflangContainer.innerHTML = hreflangHTML;
+
+                return true;
+            }
+
+            const modeAppliedFromUrl = applyModeFromUrl(resolvedLang, pathSegments);
+
+            if (modeAppliedFromUrl) {
+                startGame();
+            } else if (!loadGameState()) {
                 startGame();
             }
 
