@@ -296,14 +296,18 @@
             max-width: var(--app-width);
         }
 
-        .container { 
-            width: 100%; 
+        .container {
+            width: 100%;
             height: 100%;
-            display: flex; 
-            flex-direction: column; 
-            align-items: center; 
+            display: flex;
+            flex-direction: column;
+            align-items: center;
             justify-content: center;
         }
+        /* Invisible on mobile (board/widget stay part of .container's centered
+           stack, as before); on desktop this becomes the item that centers itself
+           via auto margins, so the footer isn't dragged into the same group. */
+        .board-group { display: contents; }
 
         .grid-container {
             position: relative;
@@ -1004,6 +1008,30 @@
 
             .screen-header { margin-bottom: 10px; }
 
+            /* Bigger header elements now that there's real desktop-width room for them —
+               the mobile sizes read as tiny inside a 1100px-wide bar. */
+            h1 { font-size: 46px; letter-spacing: -2px; }
+            .menu-icon { font-size: 34px; }
+            .score-box { padding: 10px 18px; font-size: 11px; }
+            .score-box span { font-size: 22px; }
+            .new-game-btn { padding: 14px 24px; font-size: 15px; }
+            .desktop-tabs .nav-item { padding: 12px; }
+            .desktop-tabs .nav-item .nav-icon { width: 20px; height: 20px; }
+            .desktop-tabs .nav-item span { font-size: 12px; }
+
+            /* Center the board+power-ups group by itself (via auto margins) instead of
+               letting .container's justify-content:center treat the much-shorter
+               footer as part of the same group — that was dragging the board upward
+               on tall viewports instead of truly centering it. */
+            .board-group {
+                display: flex; flex-direction: column; align-items: center;
+                width: 100%; max-width: var(--app-width); margin: auto 0;
+            }
+            /* margin-top:0 so the pre-existing mobile margin doesn't add itself on top
+               of .board-group's auto-margin gap and throw off the symmetry; padding
+               keeps the same visual breathing room above the footer text. */
+            #app-footer { margin-top: 0; padding-top: 24px; }
+
             /* Power-up buttons drop the dark embossed pill tray for a flatter, lighter
                row of icon buttons that sits directly on the page, matching the rest of
                the desktop chrome instead of looking like a mobile widget. */
@@ -1078,6 +1106,9 @@
     <div class="screens-track" id="screens-track">
     <div class="screen" id="screen-play" data-screen="play">
     <div class="container">
+        <!-- Board + power-ups group: kept together so it centers as one unit,
+             separately from the footer (see .board-group on desktop). -->
+        <div class="board-group">
         <!-- Board -->
         <div class="grid-container" id="grid-container">
             <div class="confirm-modal" id="confirm-modal">
@@ -1131,6 +1162,7 @@
                 <p class="go-undo-hint" id="go-undo-hint">3 undos left</p>
             </div>
         </div><!-- /board-footer-slot -->
+        </div><!-- /board-group -->
 
         <div class="footer" id="app-footer">
             <a href="#" id="link-privacy">Privacy Policy</a> • 
