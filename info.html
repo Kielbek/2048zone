@@ -3,205 +3,832 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title id="page-title">2048zone.com</title>
+    <meta name="robots" content="index, follow">
+    <title id="page-title">Privacy Policy – 2048zone.com</title>
+    <meta name="description" id="page-desc" content="Privacy Policy for 2048zone.com.">
+    <link rel="canonical" id="page-canonical" href="https://2048zone.com/privacy">
     <link rel="icon" type="image/png" href="/2048-logo.png">
+
+    <meta property="og:type" content="website">
+    <meta property="og:site_name" content="2048zone.com">
+    <meta property="og:title" id="og-title" content="Privacy Policy – 2048zone.com">
+    <meta property="og:description" id="og-desc" content="Privacy Policy for 2048zone.com.">
+    <meta property="og:url" id="og-url" content="https://2048zone.com/privacy">
+    <meta property="og:image" content="https://2048zone.com/2048-logo.png">
+
+    <span id="hreflang-container"></span>
+
+    <script type="application/ld+json" id="page-jsonld">{}</script>
+
+    <link href="https://fonts.googleapis.com/css2?family=Clear+Sans:wght@400;700;800&display=swap" rel="stylesheet">
     <style>
+        :root {
+            --bg: #faf8ef;
+            --card-bg: #ffffff;
+            --text: #6f6459;
+            --heading: #5d4a3a;
+            --accent: #8f7a66;
+            --accent-hover: #9f8b77;
+            --border: rgba(143, 122, 102, 0.18);
+            --chip-bg: rgba(143, 122, 102, 0.08);
+        }
+        @media (prefers-color-scheme: dark) {
+            :root {
+                --bg: #1f1a17;
+                --card-bg: #2a2420;
+                --text: #d9cdbf;
+                --heading: #f1e4d4;
+                --accent: #edc22e;
+                --accent-hover: #f1d04b;
+                --border: rgba(237, 194, 46, 0.18);
+                --chip-bg: rgba(237, 194, 46, 0.08);
+            }
+        }
+        * { box-sizing: border-box; }
+        html, body { margin: 0; padding: 0; }
         body {
-            background-color: #faf8ef;
-            color: #776e65;
+            background: var(--bg);
+            color: var(--text);
             font-family: 'Clear Sans', sans-serif;
+            line-height: 1.65;
+            min-height: 100vh;
             display: flex;
             flex-direction: column;
             align-items: center;
-            padding: 20px;
-            margin: 0;
-            line-height: 1.6;
+        }
+        a { color: var(--accent); }
+
+        .topbar {
+            width: 100%;
+            display: flex;
+            justify-content: center;
+            border-bottom: 1px solid var(--border);
+            background: var(--card-bg);
+        }
+        .topbar-inner {
+            width: 100%;
+            max-width: 760px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 12px;
+            padding: 14px 20px;
+        }
+        .brand {
+            font-weight: 800;
+            font-size: 18px;
+            color: var(--heading);
+            text-decoration: none;
+            letter-spacing: -0.5px;
+        }
+        .lang-select {
+            background: var(--chip-bg);
+            color: var(--text);
+            border: 1px solid var(--border);
+            border-radius: 8px;
+            padding: 7px 10px;
+            font-family: 'Clear Sans', sans-serif;
+            font-size: 13px;
+            font-weight: 700;
+            cursor: pointer;
+        }
+
+        .page-nav {
+            width: 100%;
+            max-width: 760px;
+            display: flex;
+            gap: 8px;
+            padding: 18px 20px 0;
+        }
+        .page-nav a {
+            flex: 1;
+            text-align: center;
+            text-decoration: none;
+            font-size: 12px;
+            font-weight: 700;
+            letter-spacing: 0.3px;
+            text-transform: uppercase;
+            padding: 9px 8px;
+            border-radius: 9px;
+            background: var(--chip-bg);
+            color: var(--text);
+            border: 1px solid transparent;
+            transition: background 0.15s ease, color 0.15s ease, border-color 0.15s ease;
+        }
+        .page-nav a.active {
+            background: var(--accent);
+            color: #fff;
+        }
+
+        main {
+            width: 100%;
+            max-width: 760px;
+            padding: 20px 20px 40px;
         }
         .content-box {
-            background: #ffffff;
-            padding: 40px;
-            border-radius: 12px;
-            max-width: 700px;
-            width: 100%;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.1);
-            margin-top: 30px;
+            background: var(--card-bg);
+            border: 1px solid var(--border);
+            border-radius: 16px;
+            padding: 32px 30px 34px;
+            box-shadow: 0 10px 30px rgba(0,0,0,0.06);
         }
-        h1 { color: #8f7a66; margin-bottom: 20px; font-size: 28px; }
-        p { margin-bottom: 15px; font-size: 15px; }
-        a.back-btn {
+        h1 { color: var(--heading); font-size: 28px; margin: 0 0 4px; letter-spacing: -0.5px; }
+        .updated { font-size: 12px; opacity: 0.65; margin: 0 0 22px; font-weight: 700; text-transform: uppercase; letter-spacing: 0.4px; }
+        .intro-text { font-size: 15px; margin: 0 0 22px; }
+        section + section { margin-top: 20px; }
+        h2 { color: var(--heading); font-size: 16px; margin: 0 0 6px; }
+        section p { margin: 0; font-size: 14.5px; }
+
+        .faq-heading { color: var(--heading); font-size: 16px; margin: 26px 0 12px; }
+        .faq-item { border-top: 1px solid var(--border); padding: 14px 0; }
+        .faq-item:first-of-type { border-top: none; padding-top: 0; }
+        .faq-item h3 { margin: 0 0 5px; font-size: 14.5px; color: var(--heading); }
+        .faq-item p { margin: 0; font-size: 14px; }
+
+        .email-line { margin-top: 22px; padding: 14px 16px; background: var(--chip-bg); border-radius: 10px; font-size: 14.5px; font-weight: 700; color: var(--heading); }
+        .email-line a { color: var(--accent); }
+
+        .back-btn {
             display: inline-block;
-            background: #8f7a66;
-            color: white;
-            padding: 10px 20px;
-            border-radius: 6px;
+            background: var(--accent);
+            color: #fff !important;
+            padding: 11px 20px;
+            border-radius: 8px;
             text-decoration: none;
-            font-weight: bold;
-            margin-top: 20px;
+            font-weight: 700;
+            font-size: 14px;
+            margin-top: 26px;
             transition: background 0.2s;
         }
-        a.back-btn:hover { background: #9f8b77; }
+        .back-btn:hover { background: var(--accent-hover); }
+
+        html[dir="rtl"] .page-nav, html[dir="rtl"] .topbar-inner { direction: rtl; }
+
+        @media (max-width: 480px) {
+            .content-box { padding: 24px 18px 28px; }
+            h1 { font-size: 23px; }
+            .topbar-inner, .page-nav, main { padding-left: 14px; padding-right: 14px; }
+        }
     </style>
 </head>
 <body>
 
-    <div class="content-box">
-        <h1 id="heading">Loading...</h1>
-        <div id="text-content">
-            <p>Please wait...</p>
+    <div class="topbar">
+        <div class="topbar-inner">
+            <a class="brand" id="brand-link" href="/">2048zone.com</a>
+            <select id="lang-select" class="lang-select"></select>
         </div>
-        <a href="/" class="back-btn" id="back-link">← Back to Game</a>
     </div>
 
+    <nav class="page-nav" id="page-nav"></nav>
+
+    <main>
+        <div class="content-box">
+            <h1 id="heading">Loading…</h1>
+            <p class="updated" id="updated-line"></p>
+            <div id="text-content"></div>
+            <a href="/" class="back-btn" id="back-link">← Back to Game</a>
+        </div>
+    </main>
+
     <script>
-        const legalTexts = {
+        const LANGS = ['en','pl','de','fr','es','it','pt','nl','ru','ja','zh','ko','tr','ar','hi','sv','da','fi','el','cs'];
+        const LANG_NAMES = { en:'English', pl:'Polski', de:'Deutsch', fr:'Français', es:'Español', it:'Italiano', pt:'Português', nl:'Nederlands', ru:'Русский', ja:'日本語', zh:'中文', ko:'한국어', tr:'Türkçe', ar:'العربية', hi:'हिन्दी', sv:'Svenska', da:'Dansk', fi:'Suomi', el:'Ελληνικά', cs:'Čeština' };
+        const PAGES = ['privacy', 'terms', 'contact'];
+        const LAST_UPDATED = '2026-08-20';
+        const SITE = 'https://2048zone.com';
+
+        const content = {
             en: {
-                privacy: { title: "Privacy Policy", content: "Your privacy is important to us. We use local storage to save your best game score and cookies for basic analytics to improve your experience on 2048zone.com." },
-                terms: { title: "Terms of Service", content: "By playing 2048zone.com, you agree to enjoy the game for personal, non-commercial use. The game is provided 'as is' without warranties of any kind." },
-                contact: { title: "Contact Us", content: "If you have any questions, feedback, or bug reports regarding 2048zone.com, you can reach us at: support@2048zone.com." },
-                back: "← Back to Game"
+                nav: { privacy: 'Privacy Policy', terms: 'Terms of Service', contact: 'Contact', back: '← Back to Game' },
+                updated: 'Last updated',
+                faqHeading: 'Frequently Asked Questions',
+                privacy: { title: 'Privacy Policy', sections: [
+                    ['Overview', "2048zone.com is a free browser game. This page explains what the game stores and why. We don't require an account, and we never sell your data."],
+                    ['What We Store', "Your progress, best score, nickname, sound/theme settings, and achievements are saved using your browser's local storage. This data stays on your device — 2048zone.com has no server-side database, so nothing is sent to us."],
+                    ['Leaderboard', "If you join the leaderboard, your chosen nickname and best score are shown on your own device to indicate your rank. No personal information is requested or required."],
+                    ['Cookies and Third Parties', 'We don’t use tracking or advertising cookies. The page loads the "Clear Sans" font from Google Fonts, which may see your IP address as part of that request. No other third-party service is embedded today.'],
+                    ['Children and Your Choices', "We don't knowingly collect personal data from anyone, including children, since nothing is sent to our servers. You can clear your saved data at any time by clearing your browser's site data for 2048zone.com."],
+                    ['Changes and Contact', 'We may update this policy as the game changes; the date above shows the latest revision. Questions? Email support@2048zone.com.']
+                ]},
+                terms: { title: 'Terms of Service', sections: [
+                    ['Acceptance', "By playing 2048zone.com you agree to these Terms. If you don't agree, please don't use the site."],
+                    ['Using the Game', "The game is free for personal, non-commercial entertainment. Don't copy, resell, redistribute it, or interfere with how it runs."],
+                    ['Leaderboard and Nicknames', 'Nicknames must not be offensive or misleading. Leaderboard rankings are for entertainment and may include automatically generated entries.'],
+                    ['No Warranty', 'The game is provided "as is," without warranties of any kind. We don’t guarantee uninterrupted, error-free access on every device or browser.'],
+                    ['Liability', "To the extent allowed by law, 2048zone.com and its operators aren't liable for indirect or consequential damages, including loss of saved progress."],
+                    ['Changes', 'We may change, suspend, or update the game — including modes, themes, and power-ups — and these Terms, at any time. Questions? Email support@2048zone.com.']
+                ]},
+                contact: { title: 'Contact Us', intro: "Found a bug, have feedback, or just want to say hi? We'd love to hear from you at support@2048zone.com.", faq: [
+                    ['Is 2048zone.com free to play?', 'Yes, completely free — no downloads, no account, no in-app purchases.'],
+                    ['Does my progress save automatically?', 'Yes. Your board, best score, and settings are saved automatically in your browser.'],
+                    ['How do I report a bug?', "Email support@2048zone.com with what happened and which browser/device you used, and we'll take a look."]
+                ]}
             },
             pl: {
-                privacy: { title: "Polityka Prywatności", content: "Twoja prywatność jest dla nas ważna. Używamy pamięci lokalnej przeglądarki (localStorage) do zapisu Twojego rekordu oraz plików cookies w celach analitycznych na 2048zone.com." },
-                terms: { title: "Regulamin Serwisu", content: "Grając na 2048zone.com, zgadzasz się na korzystanie z gry do celów prywatnych i niekomercyjnych. Gra jest udostępniana bez gwarancji ciągłości działania." },
-                contact: { title: "Kontakt", content: "Jeśli masz pytania, opinie lub chcesz zgłosić błąd związany z 2048zone.com, napisz do nas na adres: support@2048zone.com." },
-                back: "← Powrót do gry"
+                nav: { privacy: 'Polityka Prywatności', terms: 'Regulamin', contact: 'Kontakt', back: '← Powrót do gry' },
+                updated: 'Ostatnia aktualizacja',
+                faqHeading: 'Najczęściej zadawane pytania',
+                privacy: { title: 'Polityka Prywatności', sections: [
+                    ['Wprowadzenie', '2048zone.com to darmowa gra przeglądarkowa. Ta strona wyjaśnia, co gra zapisuje i dlaczego. Nie wymagamy konta i nigdy nie sprzedajemy Twoich danych.'],
+                    ['Co zapisujemy', 'Twój postęp, najlepszy wynik, pseudonim, ustawienia dźwięku/motywu oraz osiągnięcia zapisywane są w pamięci lokalnej przeglądarki (localStorage). Dane pozostają na Twoim urządzeniu — 2048zone.com nie ma bazy danych po stronie serwera, więc nic nie jest do nas wysyłane.'],
+                    ['Ranking', 'Jeśli dołączysz do rankingu, wybrany pseudonim i najlepszy wynik są wyświetlane na Twoim urządzeniu, aby pokazać Twoją pozycję. Nie prosimy o żadne dane osobowe.'],
+                    ['Pliki cookie i usługi zewnętrzne', 'Nie używamy plików cookie do śledzenia ani reklam. Strona wczytuje czcionkę „Clear Sans” z Google Fonts, co może ujawnić Twój adres IP w ramach tego zapytania. Obecnie nie korzystamy z żadnych innych usług zewnętrznych.'],
+                    ['Dzieci i Twój wybór', 'Nie zbieramy świadomie danych osobowych od nikogo, w tym od dzieci — ponieważ nic nie trafia na nasze serwery. W każdej chwili możesz usunąć zapisane dane, czyszcząc dane witryny 2048zone.com w ustawieniach przeglądarki.'],
+                    ['Zmiany i kontakt', 'Możemy aktualizować tę politykę wraz z rozwojem gry; data powyżej pokazuje ostatnią zmianę. Pytania? Napisz na support@2048zone.com.']
+                ]},
+                terms: { title: 'Regulamin', sections: [
+                    ['Akceptacja', 'Grając na 2048zone.com, akceptujesz niniejszy Regulamin. Jeśli się nie zgadzasz, prosimy nie korzystać z serwisu.'],
+                    ['Korzystanie z gry', 'Gra jest darmowa i przeznaczona do prywatnego, niekomercyjnego użytku. Nie kopiuj, nie odsprzedawaj ani nie rozpowszechniaj gry i nie zakłócaj jej działania.'],
+                    ['Ranking i pseudonimy', 'Pseudonimy nie mogą być obraźliwe ani wprowadzać w błąd. Wyniki w rankingu mają charakter rozrywkowy i mogą zawierać wpisy generowane automatycznie.'],
+                    ['Brak gwarancji', 'Gra jest dostarczana „tak jak jest”, bez jakichkolwiek gwarancji. Nie gwarantujemy nieprzerwanego, bezbłędnego działania na każdym urządzeniu czy w każdej przeglądarce.'],
+                    ['Odpowiedzialność', 'W zakresie dozwolonym przez prawo, 2048zone.com i jego operatorzy nie ponoszą odpowiedzialności za szkody pośrednie lub wynikowe, w tym utratę zapisanego postępu.'],
+                    ['Zmiany', 'Możemy w każdej chwili zmieniać, zawieszać lub aktualizować grę — w tym tryby, motywy i power-upy — oraz niniejszy Regulamin. Pytania? Napisz na support@2048zone.com.']
+                ]},
+                contact: { title: 'Kontakt', intro: 'Znalazłeś błąd, masz sugestię, a może chcesz się po prostu przywitać? Chętnie Cię wysłuchamy: support@2048zone.com.', faq: [
+                    ['Czy 2048zone.com jest darmowe?', 'Tak, całkowicie za darmo — bez pobierania, bez konta, bez zakupów w aplikacji.'],
+                    ['Czy mój postęp zapisuje się automatycznie?', 'Tak. Plansza, najlepszy wynik i ustawienia zapisują się automatycznie w Twojej przeglądarce.'],
+                    ['Jak zgłosić błąd?', 'Napisz na support@2048zone.com, opisując co się stało oraz jakiej przeglądarki/urządzenia używasz — sprawdzimy to.']
+                ]}
             },
             de: {
-                privacy: { title: "Datenschutz", content: "Ihre Privatsphäre ist uns wichtig. Wir verwenden den lokalen Speicher für Ihren Highscore und Cookies für Analysen auf 2048zone.com." },
-                terms: { title: "Nutzungsbedingungen", content: "Durch das Spielen auf 2048zone.com stimmen Sie der privaten, nicht-kommerziellen Nutzung zu." },
-                contact: { title: "Kontakt", content: "Bei Fragen oder Feedback zu 2048zone.com erreichen Sie uns unter: support@2048zone.com." },
-                back: "← Zurück zum Spiel"
+                nav: { privacy: 'Datenschutz', terms: 'AGB', contact: 'Kontakt', back: '← Zurück zum Spiel' },
+                updated: 'Letzte Aktualisierung',
+                faqHeading: 'Häufig gestellte Fragen',
+                privacy: { title: 'Datenschutz', sections: [
+                    ['Überblick', 'Le 2048zone.com ist ein kostenloses Browserspiel. Diese Seite erklärt, was gespeichert wird und warum. Kein Konto nötig, wir verkaufen nie Ihre Daten.'],
+                    ['Was wir speichern', 'Fortschritt, Highscore, Nickname, Sound-/Theme-Einstellungen und Erfolge werden im lokalen Speicher Ihres Browsers gespeichert. Die Daten bleiben auf Ihrem Gerät — es gibt keine serverseitige Datenbank.'],
+                    ['Bestenliste', 'Nickname und Highscore werden nur auf Ihrem Gerät angezeigt, um Ihren Rang zu zeigen. Es werden keine persönlichen Daten verlangt.'],
+                    ['Cookies und Drittanbieter', 'Wir verwenden keine Tracking- oder Werbe-Cookies. Die Seite lädt die Schriftart „Clear Sans" von Google Fonts, wodurch Ihre IP-Adresse übermittelt werden kann. Derzeit sind keine weiteren Drittanbieter eingebunden.'],
+                    ['Kinder und Ihre Wahl', 'Wir sammeln wissentlich keine personenbezogenen Daten, auch nicht von Kindern, da nichts an unsere Server gesendet wird. Sie können gespeicherte Daten jederzeit über die Browsereinstellungen löschen.'],
+                    ['Änderungen und Kontakt', 'Wir aktualisieren diese Richtlinie bei Bedarf; das Datum oben zeigt die letzte Änderung. Fragen? support@2048zone.com.']
+                ]},
+                terms: { title: 'AGB', sections: [
+                    ['Zustimmung', 'Mit dem Spielen von 2048zone.com akzeptieren Sie diese Nutzungsbedingungen. Falls nicht, nutzen Sie die Seite bitte nicht.'],
+                    ['Das Spiel nutzen', 'Das Spiel ist kostenlos für den privaten, nicht-kommerziellen Gebrauch. Nicht kopieren, weiterverkaufen, verbreiten oder den Betrieb stören.'],
+                    ['Bestenliste und Nicknamen', 'Nicknamen dürfen nicht anstößig oder irreführend sein. Die Bestenliste dient der Unterhaltung und kann automatisch generierte Einträge enthalten.'],
+                    ['Keine Gewährleistung', 'Das Spiel wird „wie besehen" ohne jegliche Gewährleistung bereitgestellt. Wir garantieren keinen unterbrechungsfreien, fehlerfreien Betrieb auf jedem Gerät.'],
+                    ['Haftung', 'Soweit gesetzlich zulässig, haften 2048zone.com und seine Betreiber nicht für indirekte oder Folgeschäden, einschließlich Verlust des gespeicherten Fortschritts.'],
+                    ['Änderungen', 'Wir können das Spiel — Modi, Themes, Power-ups — sowie diese Bedingungen jederzeit ändern. Fragen? support@2048zone.com.']
+                ]},
+                contact: { title: 'Kontakt', intro: 'Bug gefunden, Feedback, oder einfach Hallo sagen? Wir freuen uns über Ihre Nachricht: support@2048zone.com.', faq: [
+                    ['Ist 2048zone.com kostenlos?', 'Ja, komplett kostenlos — kein Download, kein Konto, keine In-App-Käufe.'],
+                    ['Wird mein Fortschritt automatisch gespeichert?', 'Ja. Spielfeld, Highscore und Einstellungen werden automatisch im Browser gespeichert.'],
+                    ['Wie melde ich einen Fehler?', 'Schreiben Sie an support@2048zone.com mit einer Beschreibung sowie Browser/Gerät — wir schauen es uns an.']
+                ]}
             },
             fr: {
-                privacy: { title: "Politique de Confidentialité", content: "Votre vie privée est importante pour nous. Nous utilisons le stockage local pour sauvegarder votre meilleur score et des cookies pour l'analyse sur 2048zone.com." },
-                terms: { title: "Conditions d'Utilisation", content: "En jouant sur 2048zone.com, vous acceptez d'utiliser le jeu à des fins personnelles et non commerciales." },
-                contact: { title: "Contact", content: "Pour toute question ou commentaire concernant 2048zone.com, contactez-nous à : support@2048zone.com." },
-                back: "← Retour au jeu"
+                nav: { privacy: 'Politique de Confidentialité', terms: 'Conditions', contact: 'Contact', back: '← Retour au jeu' },
+                updated: 'Dernière mise à jour',
+                faqHeading: 'Questions fréquentes',
+                privacy: { title: 'Politique de Confidentialité', sections: [
+                    ['Aperçu', "2048zone.com est un jeu de navigateur gratuit. Cette page explique ce que le jeu enregistre et pourquoi. Aucun compte requis, nous ne vendons jamais vos données."],
+                    ['Ce que nous stockons', "Votre progression, meilleur score, pseudo, préférences de son/thème et succès sont enregistrés dans le stockage local de votre navigateur. Ces données restent sur votre appareil — il n'y a pas de base de données serveur."],
+                    ['Classement', "Votre pseudo et meilleur score s'affichent uniquement sur votre appareil pour indiquer votre rang. Aucune donnée personnelle n'est demandée."],
+                    ['Cookies et tiers', "Nous n'utilisons pas de cookies de suivi ni publicitaires. La page charge la police « Clear Sans » depuis Google Fonts, ce qui peut transmettre votre adresse IP. Aucun autre service tiers n'est intégré actuellement."],
+                    ['Enfants et vos choix', "Nous ne collectons sciemment aucune donnée personnelle, y compris auprès des enfants, puisque rien n'est envoyé à nos serveurs. Vous pouvez effacer vos données à tout moment via les paramètres de votre navigateur."],
+                    ['Modifications et contact', "Nous pouvons mettre à jour cette politique ; la date ci-dessus indique la dernière révision. Des questions ? support@2048zone.com."]
+                ]},
+                terms: { title: 'Conditions', sections: [
+                    ['Acceptation', "En jouant à 2048zone.com, vous acceptez ces Conditions d'Utilisation. Si vous n'êtes pas d'accord, veuillez ne pas utiliser le site."],
+                    ['Utilisation du jeu', "Le jeu est gratuit pour un usage personnel et non commercial. Ne le copiez pas, ne le revendez pas, ne le redistribuez pas et n'interférez pas avec son fonctionnement."],
+                    ['Classement et pseudos', 'Les pseudos ne doivent pas être offensants ni trompeurs. Le classement est fourni à titre ludique et peut inclure des entrées générées automatiquement.'],
+                    ['Aucune garantie', 'Le jeu est fourni « tel quel », sans garantie d’aucune sorte. Nous ne garantissons pas un accès ininterrompu ou sans erreur sur tous les appareils.'],
+                    ['Responsabilité', "Dans la mesure permise par la loi, 2048zone.com et ses opérateurs ne sont pas responsables des dommages indirects, y compris la perte de progression sauvegardée."],
+                    ['Modifications', "Nous pouvons modifier le jeu — modes, thèmes, bonus — ainsi que ces Conditions à tout moment. Des questions ? support@2048zone.com."]
+                ]},
+                contact: { title: 'Contact', intro: "Un bug, un avis, ou juste envie de dire bonjour ? Écrivez-nous à support@2048zone.com.", faq: [
+                    ['2048zone.com est-il gratuit ?', 'Oui, entièrement gratuit — sans téléchargement, sans compte, sans achats intégrés.'],
+                    ['Ma progression est-elle sauvegardée automatiquement ?', 'Oui. Grille, meilleur score et paramètres sont enregistrés automatiquement dans votre navigateur.'],
+                    ['Comment signaler un bug ?', 'Écrivez à support@2048zone.com en précisant ce qui s’est passé et votre navigateur/appareil.']
+                ]}
             },
             es: {
-                privacy: { title: "Política de Privacidad", content: "Tu privacidad es importante para nosotros. Usamos almacenamiento local para guardar tu puntuación y cookies para análisis en 2048zone.com." },
-                terms: { title: "Términos de Servicio", content: "Al jugar en 2048zone.com, aceptas disfrutar del juego para uso personal y no comercial." },
-                contact: { title: "Contacto", content: "Si tienes preguntas o comentarios sobre 2048zone.com, contáctanos en: support@2048zone.com." },
-                back: "← Volver al juego"
+                nav: { privacy: 'Política de Privacidad', terms: 'Términos', contact: 'Contacto', back: '← Volver al juego' },
+                updated: 'Última actualización',
+                faqHeading: 'Preguntas frecuentes',
+                privacy: { title: 'Política de Privacidad', sections: [
+                    ['Resumen', 'Ha 2048zone.com es un juego de navegador gratuito. Esta página explica qué guarda el juego y por qué. No requiere cuenta y nunca vendemos tus datos.'],
+                    ['Qué almacenamos', 'Tu progreso, mejor puntuación, apodo, preferencias de sonido/tema y logros se guardan en el almacenamiento local de tu navegador. Los datos permanecen en tu dispositivo — no existe una base de datos en servidor.'],
+                    ['Clasificación', 'Tu apodo y mejor puntuación se muestran solo en tu dispositivo para indicar tu posición. No se solicitan datos personales.'],
+                    ['Cookies y terceros', 'No usamos cookies de seguimiento ni publicitarias. La página carga la fuente «Clear Sans» de Google Fonts, lo que puede revelar tu dirección IP. Actualmente no se integra ningún otro servicio de terceros.'],
+                    ['Menores y tus opciones', 'No recopilamos conscientemente datos personales de nadie, incluidos menores, ya que nada se envía a nuestros servidores. Puedes borrar tus datos guardados cuando quieras desde los ajustes del navegador.'],
+                    ['Cambios y contacto', '¿Preguntas? support@2048zone.com. Podemos actualizar esta política; la fecha indicada arriba muestra la última revisión.']
+                ]},
+                terms: { title: 'Términos', sections: [
+                    ['Aceptación', 'Al jugar en 2048zone.com aceptas estos Términos de Servicio. Si no estás de acuerdo, no uses el sitio.'],
+                    ['Uso del juego', 'El juego es gratuito para uso personal y no comercial. No lo copies, revendas, redistribuyas ni interfieras con su funcionamiento.'],
+                    ['Clasificación y apodos', 'Los apodos no deben ser ofensivos ni engañosos. La clasificación tiene fines de entretenimiento y puede incluir entradas generadas automáticamente.'],
+                    ['Sin garantía', 'El juego se ofrece «tal cual», sin garantías de ningún tipo. No garantizamos un acceso ininterrumpido o libre de errores en todos los dispositivos.'],
+                    ['Responsabilidad', 'En la medida permitida por la ley, 2048zone.com y sus operadores no son responsables de daños indirectos, incluida la pérdida de progreso guardado.'],
+                    ['Cambios', '¿Preguntas? support@2048zone.com. Podemos modificar el juego —modos, temas, power-ups— y estos Términos en cualquier momento.']
+                ]},
+                contact: { title: 'Contacto', intro: '¿Encontraste un error, tienes comentarios o solo quieres saludar? Escríbenos a support@2048zone.com.', faq: [
+                    ['¿Es gratis 2048zone.com?', 'Sí, totalmente gratis — sin descargas, sin cuenta, sin compras dentro de la app.'],
+                    ['¿Se guarda mi progreso automáticamente?', 'Sí. El tablero, la mejor puntuación y los ajustes se guardan automáticamente en tu navegador.'],
+                    ['¿Cómo reporto un error?', 'Escribe a support@2048zone.com describiendo qué pasó y tu navegador/dispositivo.']
+                ]}
             },
             it: {
-                privacy: { title: "Informativa sulla Privacy", content: "La tua privacy è importante per noi. Utilizziamo la memoria locale per il punteggio e cookie analitici su 2048zone.com." },
-                terms: { title: "Termini di Servizio", content: "Giocando su 2048zone.com accetti di utilizzare il gioco per scopi personali e non commerciali." },
-                contact: { title: "Contatti", content: "Per domande o segnalazioni su 2048zone.com, contattaci a: support@2048zone.com." },
-                back: "← Torna al gioco"
+                nav: { privacy: 'Informativa sulla Privacy', terms: 'Termini', contact: 'Contatti', back: '← Torna al gioco' },
+                updated: 'Ultimo aggiornamento',
+                faqHeading: 'Domande frequenti',
+                privacy: { title: 'Informativa sulla Privacy', sections: [
+                    ['Panoramica', 'Il 2048zone.com è un gioco da browser gratuito. Questa pagina spiega cosa memorizza il gioco e perché. Non serve un account e non vendiamo mai i tuoi dati.'],
+                    ['Cosa memorizziamo', 'Progressi, punteggio migliore, nickname, preferenze audio/tema e obiettivi sono salvati nella memoria locale del browser. I dati restano sul tuo dispositivo — non esiste un database lato server.'],
+                    ['Classifica', 'Nickname e punteggio migliore sono mostrati solo sul tuo dispositivo per indicare la tua posizione. Non chiediamo dati personali.'],
+                    ['Cookie e terze parti', 'Non utilizziamo cookie di tracciamento o pubblicitari. La pagina carica il font «Clear Sans» da Google Fonts, che può rivelare il tuo indirizzo IP. Al momento non è integrato nessun altro servizio di terze parti.'],
+                    ['Minori e le tue scelte', 'Non raccogliamo consapevolmente dati personali da nessuno, inclusi i minori, poiché nulla viene inviato ai nostri server. Puoi cancellare i dati salvati in qualsiasi momento dalle impostazioni del browser.'],
+                    ['Modifiche e contatti', 'Potremmo aggiornare questa informativa; la data sopra indica l’ultima revisione. Domande? support@2048zone.com.']
+                ]},
+                terms: { title: 'Termini', sections: [
+                    ['Accettazione', "Giocando a 2048zone.com accetti questi Termini di Servizio. Se non sei d'accordo, non utilizzare il sito."],
+                    ['Uso del gioco', 'Il gioco è gratuito per uso personale e non commerciale. Non copiarlo, rivenderlo, ridistribuirlo né interferire con il suo funzionamento.'],
+                    ['Classifica e nickname', 'I nickname non devono essere offensivi o ingannevoli. La classifica ha scopo di intrattenimento e può includere voci generate automaticamente.'],
+                    ['Nessuna garanzia', 'Il gioco è fornito «così com’è», senza garanzie di alcun tipo. Non garantiamo un accesso ininterrotto o privo di errori su ogni dispositivo.'],
+                    ['Responsabilità', 'Nei limiti consentiti dalla legge, 2048zone.com e i suoi gestori non sono responsabili per danni indiretti, inclusa la perdita dei progressi salvati.'],
+                    ['Modifiche', 'Possiamo modificare il gioco — modalità, temi, power-up — e questi Termini in qualsiasi momento. Domande? support@2048zone.com.']
+                ]},
+                contact: { title: 'Contatti', intro: 'Hai trovato un bug, hai un suggerimento o vuoi solo salutare? Scrivici a support@2048zone.com.', faq: [
+                    ['2048zone.com è gratuito?', 'Sì, completamente gratuito — senza download, account o acquisti in-app.'],
+                    ['I progressi si salvano automaticamente?', 'Sì. Griglia, punteggio migliore e impostazioni si salvano automaticamente nel browser.'],
+                    ['Come segnalo un bug?', 'Scrivi a support@2048zone.com descrivendo cosa è successo e browser/dispositivo usati.']
+                ]}
             },
             pt: {
-                privacy: { title: "Política de Privacidade", content: "A sua privacidade é importante para nós. Usamos armazenamento local para salvar sua pontuação e cookies para análise em 2048zone.com." },
-                terms: { title: "Termos de Serviço", content: "Ao jogar em 2048zone.com, você concorda com o uso pessoal e não comercial." },
-                contact: { title: "Contato", content: "Se tiver dúvidas ou comentários sobre 2048zone.com, contacte-nos: support@2048zone.com." },
-                back: "← Voltar ao jogo"
+                nav: { privacy: 'Política de Privacidade', terms: 'Termos', contact: 'Contato', back: '← Voltar ao jogo' },
+                updated: 'Última atualização',
+                faqHeading: 'Perguntas frequentes',
+                privacy: { title: 'Política de Privacidade', sections: [
+                    ['Visão geral', 'O 2048zone.com é um jogo de navegador gratuito. Esta página explica o que o jogo guarda e porquê. Não é necessária conta e nunca vendemos os seus dados.'],
+                    ['O que guardamos', 'O seu progresso, melhor pontuação, alcunha, preferências de som/tema e conquistas são guardados no armazenamento local do navegador. Os dados ficam no seu dispositivo — não existe base de dados no servidor.'],
+                    ['Classificação', 'A sua alcunha e melhor pontuação são mostradas apenas no seu dispositivo para indicar a sua posição. Não pedimos dados pessoais.'],
+                    ['Cookies e terceiros', 'Não usamos cookies de rastreio ou publicidade. A página carrega a fonte "Clear Sans" do Google Fonts, o que pode revelar o seu endereço IP. Atualmente não há mais nenhum serviço de terceiros integrado.'],
+                    ['Menores e suas escolhas', 'Não recolhemos conscientemente dados pessoais de ninguém, incluindo menores, pois nada é enviado para os nossos servidores. Pode apagar os seus dados guardados a qualquer momento nas definições do navegador.'],
+                    ['Alterações e contacto', 'Podemos atualizar esta política; a data acima mostra a última revisão. Dúvidas? support@2048zone.com.']
+                ]},
+                terms: { title: 'Termos', sections: [
+                    ['Aceitação', 'Ao jogar em 2048zone.com, aceita estes Termos de Serviço. Se não concordar, não utilize o site.'],
+                    ['Uso do jogo', 'O jogo é gratuito para uso pessoal e não comercial. Não copie, revenda, redistribua nem interfira com o seu funcionamento.'],
+                    ['Classificação e alcunhas', 'As alcunhas não podem ser ofensivas ou enganosas. A classificação tem fins de entretenimento e pode incluir entradas geradas automaticamente.'],
+                    ['Sem garantia', 'O jogo é fornecido "tal como está", sem garantias de qualquer tipo. Não garantimos acesso ininterrupto ou sem erros em todos os dispositivos.'],
+                    ['Responsabilidade', 'Na medida permitida por lei, 2048zone.com e os seus operadores não são responsáveis por danos indiretos, incluindo a perda de progresso guardado.'],
+                    ['Alterações', 'Podemos alterar o jogo — modos, temas, power-ups — e estes Termos a qualquer momento. Dúvidas? support@2048zone.com.']
+                ]},
+                contact: { title: 'Contato', intro: 'Encontrou um erro, tem feedback, ou só quer dizer olá? Escreva-nos para support@2048zone.com.', faq: [
+                    ['O 2048zone.com é gratuito?', 'Sim, totalmente gratuito — sem downloads, conta ou compras dentro da aplicação.'],
+                    ['O meu progresso é guardado automaticamente?', 'Sim. O tabuleiro, a melhor pontuação e as definições são guardados automaticamente no navegador.'],
+                    ['Como reporto um erro?', 'Escreva para support@2048zone.com descrevendo o que aconteceu e o navegador/dispositivo usado.']
+                ]}
             },
             nl: {
-                privacy: { title: "Privacybeleid", content: "Uw privacy is belangrijk voor ons. We gebruiken lokale opslag voor uw score en cookies voor analyse op 2048zone.com." },
-                terms: { title: "Algemene Voorwaarden", content: "Door te spelen op 2048zone.com gaat u akkoord met persoonlijk, niet-commercieel gebruik." },
-                contact: { title: "Contact", content: "Voor vragen of feedback over 2048zone.com kunt u ons bereiken via: support@2048zone.com." },
-                back: "← Terug naar het spel"
+                nav: { privacy: 'Privacybeleid', terms: 'Algemene Voorwaarden', contact: 'Contact', back: '← Terug naar het spel' },
+                updated: 'Laatst bijgewerkt',
+                faqHeading: 'Veelgestelde vragen',
+                privacy: { title: 'Privacybeleid', sections: [
+                    ['Overzicht', '2048zone.com is een gratis browsergame. Deze pagina legt uit wat het spel opslaat en waarom. Geen account nodig, we verkopen uw gegevens nooit.'],
+                    ['Wat we opslaan', "Uw voortgang, hoogste score, bijnaam, geluid-/themavoorkeuren en prestaties worden opgeslagen in de lokale opslag van uw browser. De gegevens blijven op uw apparaat — er is geen database op de server."],
+                    ['Ranglijst', 'Uw bijnaam en hoogste score worden alleen op uw apparaat getoond om uw positie aan te geven. Er worden geen persoonsgegevens gevraagd.'],
+                    ['Cookies en derden', 'We gebruiken geen tracking- of advertentiecookies. De pagina laadt het lettertype "Clear Sans" via Google Fonts, waardoor uw IP-adres zichtbaar kan worden. Momenteel is er geen andere externe dienst geïntegreerd.'],
+                    ['Kinderen en uw keuzes', 'We verzamelen bewust geen persoonsgegevens, ook niet van kinderen, omdat er niets naar onze servers wordt gestuurd. U kunt opgeslagen gegevens altijd wissen via de instellingen van uw browser.'],
+                    ['Wijzigingen en contact', 'We kunnen dit beleid bijwerken; de datum hierboven toont de laatste wijziging. Vragen? support@2048zone.com.']
+                ]},
+                terms: { title: 'Algemene Voorwaarden', sections: [
+                    ['Aanvaarding', 'Door 2048zone.com te spelen, gaat u akkoord met deze Gebruiksvoorwaarden. Gaat u niet akkoord, gebruik de site dan niet.'],
+                    ['Het spel gebruiken', 'Het spel is gratis voor persoonlijk, niet-commercieel gebruik. Niet kopiëren, doorverkopen, verspreiden of de werking verstoren.'],
+                    ['Ranglijst en bijnamen', 'Bijnamen mogen niet aanstootgevend of misleidend zijn. De ranglijst dient ter vermaak en kan automatisch gegenereerde vermeldingen bevatten.'],
+                    ['Geen garantie', 'Het spel wordt "as is" geleverd, zonder enige garantie. We garanderen geen ononderbroken, foutloze werking op elk apparaat.'],
+                    ['Aansprakelijkheid', 'Voor zover wettelijk toegestaan, zijn 2048zone.com en de exploitanten niet aansprakelijk voor indirecte schade, inclusief verlies van opgeslagen voortgang.'],
+                    ['Wijzigingen', "We kunnen het spel — modi, thema's, power-ups — en deze Voorwaarden op elk moment wijzigen. Vragen? support@2048zone.com."]
+                ]},
+                contact: { title: 'Contact', intro: 'Bug gevonden, feedback, of gewoon even hallo zeggen? Mail ons op support@2048zone.com.', faq: [
+                    ['Is 2048zone.com gratis?', 'Ja, volledig gratis — geen downloads, account of aankopen in de app.'],
+                    ['Wordt mijn voortgang automatisch opgeslagen?', 'Ja. Bord, hoogste score en instellingen worden automatisch opgeslagen in uw browser.'],
+                    ['Hoe meld ik een bug?', 'Mail support@2048zone.com met wat er gebeurde en uw browser/apparaat.']
+                ]}
             },
             ru: {
-                privacy: { title: "Политика конфиденциальности", content: "Ваша конфиденциальность важна для нас. Мы используем локальное хранилище для сохранения рекорда и файлы cookie на 2048zone.com." },
-                terms: { title: "Условия использования", content: "Играя на 2048zone.com, вы соглашаетесь использовать игру в личных некоммерческих целях." },
-                contact: { title: "Контакты", content: "Если у вас есть вопросы или отзывы по поводу 2048zone.com, пишите нам: support@2048zone.com." },
-                back: "← Назад к игре"
+                nav: { privacy: 'Политика конфиденциальности', terms: 'Условия', contact: 'Контакты', back: '← Назад к игре' },
+                updated: 'Последнее обновление',
+                faqHeading: 'Часто задаваемые вопросы',
+                privacy: { title: 'Политика конфиденциальности', sections: [
+                    ['Обзор', '2048zone.com — бесплатная браузерная игра. Эта страница объясняет, что сохраняет игра и почему. Аккаунт не требуется, мы никогда не продаём ваши данные.'],
+                    ['Что мы храним', 'Ваш прогресс, лучший результат, никнейм, настройки звука/темы и достижения сохраняются в локальном хранилище браузера. Данные остаются на вашем устройстве — серверной базы данных не существует.'],
+                    ['Рейтинг', 'Ваш никнейм и лучший результат отображаются только на вашем устройстве, чтобы показать позицию. Личные данные не запрашиваются.'],
+                    ['Cookie и третьи стороны', 'Мы не используем отслеживающие или рекламные cookie. Страница загружает шрифт «Clear Sans» из Google Fonts, что может раскрыть ваш IP-адрес. Других сторонних сервисов сейчас не используется.'],
+                    ['Дети и ваш выбор', 'Мы сознательно не собираем личные данные ни у кого, включая детей, так как ничего не отправляется на наши серверы. Вы можете удалить сохранённые данные в любой момент через настройки браузера.'],
+                    ['Изменения и контакты', 'Мы можем обновлять эту политику; дата выше показывает последнее изменение. Вопросы? support@2048zone.com.']
+                ]},
+                terms: { title: 'Условия', sections: [
+                    ['Принятие условий', 'Играя на 2048zone.com, вы соглашаетесь с настоящими Условиями использования. Если вы не согласны, пожалуйста, не используйте сайт.'],
+                    ['Использование игры', 'Игра бесплатна для личного, некоммерческого использования. Не копируйте, не перепродавайте, не распространяйте игру и не мешайте её работе.'],
+                    ['Рейтинг и никнеймы', 'Никнеймы не должны быть оскорбительными или вводящими в заблуждение. Рейтинг предназначен для развлечения и может включать автоматически сгенерированные записи.'],
+                    ['Отсутствие гарантий', 'Игра предоставляется «как есть», без каких-либо гарантий. Мы не гарантируем бесперебойную, безошибочную работу на всех устройствах.'],
+                    ['Ответственность', 'В пределах, разрешённых законом, 2048zone.com и её операторы не несут ответственности за косвенные убытки, включая потерю сохранённого прогресса.'],
+                    ['Изменения', 'Мы можем изменять игру — режимы, темы, усиления — и настоящие Условия в любое время. Вопросы? support@2048zone.com.']
+                ]},
+                contact: { title: 'Контакты', intro: 'Нашли ошибку, есть отзыв, или просто хотите поздороваться? Пишите нам: support@2048zone.com.', faq: [
+                    ['2048zone.com бесплатна?', 'Да, полностью бесплатна — без загрузок, аккаунта и покупок внутри игры.'],
+                    ['Сохраняется ли прогресс автоматически?', 'Да. Поле, лучший результат и настройки сохраняются автоматически в браузере.'],
+                    ['Как сообщить об ошибке?', 'Напишите на support@2048zone.com, описав, что произошло, и укажите браузер/устройство.']
+                ]}
             },
             ja: {
-                privacy: { title: "プライバシーポリシー", content: "お客様のプライバシーは重要です。2048zone.comでは、スコア保存のためにローカルストレージとアナリティクス用クッキーを使用しています。" },
-                terms: { title: "利用規約", content: "2048zone.comでのプレイにより、個人的かつ非営利的な利用に同意したことになります。" },
-                contact: { title: "お問い合わせ", content: "2048zone.comに関するご質問や不具合の報告は、support@2048zone.com までご連絡ください。" },
-                back: "← ゲームに戻る"
+                nav: { privacy: 'プライバシーポリシー', terms: '利用規約', contact: 'お問い合わせ', back: '← ゲームに戻る' },
+                updated: '最終更新日',
+                faqHeading: 'よくある質問',
+                privacy: { title: 'プライバシーポリシー', sections: [
+                    ['概要', '2048zone.comは無料のブラウザゲームです。このページでは、ゲームが何を保存し、なぜ保存するかを説明します。アカウントは不要で、データを販売することはありません。'],
+                    ['保存する情報', '進行状況、ベストスコア、ニックネーム、サウンド/テーマ設定、実績はブラウザのローカルストレージに保存されます。データは端末内にとどまり、サーバー側のデータベースはありません。'],
+                    ['ランキング', '選択したニックネームとベストスコアは、順位を示すためにお使いの端末にのみ表示されます。個人情報は求めません。'],
+                    ['Cookieと第三者', '追跡や広告用のCookieは使用しません。本ページはGoogle Fontsから「Clear Sans」フォントを読み込むため、IPアドレスが伝わる場合があります。現在、他の第三者サービスは組み込まれていません。'],
+                    ['お子様とお客様の選択', 'お子様を含め、どなたの個人情報も意図的に収集しません。サーバーに何も送信されないためです。ブラウザの設定からいつでも保存データを削除できます。'],
+                    ['変更とお問い合わせ', 'ゲームの変更に応じて本ポリシーを更新する場合があります。上部の日付が最終更新日です。ご質問はsupport@2048zone.comまで。']
+                ]},
+                terms: { title: '利用規約', sections: [
+                    ['同意', '2048zone.comをプレイすることで、本利用規約に同意したものとみなされます。同意されない場合はご利用をお控えください。'],
+                    ['ゲームの利用', '本ゲームは個人的・非営利目的での無料利用を想定しています。複製、再販、再配布、動作妨害はご遠慮ください。'],
+                    ['ランキングとニックネーム', 'ニックネームは攻撃的または誤解を招くものであってはなりません。ランキングは娯楽目的であり、自動生成された項目を含む場合があります。'],
+                    ['保証なし', '本ゲームは「現状のまま」提供され、いかなる保証もありません。すべての端末・ブラウザでの中断のない動作を保証するものではありません。'],
+                    ['責任の制限', '法律で許容される範囲で、2048zone.comおよび運営者は、保存データの損失を含む間接的損害について責任を負いません。'],
+                    ['変更', 'モード、テーマ、パワーアップを含むゲーム内容および本規約は、随時変更される場合があります。ご質問はsupport@2048zone.comまで。']
+                ]},
+                contact: { title: 'お問い合わせ', intro: '不具合の発見、ご意見、あるいはご挨拶など、お気軽にsupport@2048zone.comまでご連絡ください。', faq: [
+                    ['2048zone.comは無料ですか？', 'はい、完全無料です。ダウンロードやアカウント、アプリ内課金は一切不要です。'],
+                    ['進行状況は自動保存されますか？', 'はい。盤面、ベストスコア、設定はブラウザに自動保存されます。'],
+                    ['不具合はどう報告すればいいですか？', '発生した内容と使用ブラウザ・端末を添えてsupport@2048zone.comまでご連絡ください。']
+                ]}
             },
             zh: {
-                privacy: { title: "隐私政策", content: "我们重视您的隐私。我们在 2048zone.com 上使用本地存储保存最高分，并使用 Cookie 进行基础分析。" },
-                terms: { title: "服务条款", content: "游玩 2048zone.com 即表示您同意将其用于个人、非商业用途。" },
-                contact: { title: "联系我们", content: "如果您对 2048zone.com 有任何疑问、反馈或错误报告，请通过以下方式联系我们：support@2048zone.com。" },
-                back: "← 返回游戏"
+                nav: { privacy: '隐私政策', terms: '服务条款', contact: '联系我们', back: '← 返回游戏' },
+                updated: '最后更新',
+                faqHeading: '常见问题',
+                privacy: { title: '隐私政策', sections: [
+                    ['概述', '2048zone.com 是一款免费的浏览器游戏。本页说明游戏保存哪些信息及原因。无需账号，我们绝不出售您的数据。'],
+                    ['我们保存的信息', '您的进度、最高分、昵称、音效/主题设置及成就均保存于浏览器本地存储中。数据仅保留在您的设备上——我们没有服务器端数据库。'],
+                    ['排行榜', '您选择的昵称和最高分仅在您的设备上显示，用于展示排名，不会索取任何个人信息。'],
+                    ['Cookie 与第三方', '我们不使用跟踪或广告类 Cookie。页面从 Google Fonts 加载「Clear Sans」字体，该请求可能会传送您的 IP 地址。目前未接入其他第三方服务。'],
+                    ['儿童与您的选择', '我们不会有意收集任何人（包括儿童）的个人信息，因为没有任何数据发送至我们的服务器。您可随时通过浏览器设置清除已保存的数据。'],
+                    ['变更与联系方式', '我们可能会随游戏更新调整本政策，上方日期为最近修订时间。如有疑问，请联系 support@2048zone.com。']
+                ]},
+                terms: { title: '服务条款', sections: [
+                    ['接受条款', '使用 2048zone.com 即表示您同意本服务条款。如不同意，请勿使用本网站。'],
+                    ['使用游戏', '本游戏仅供个人非商业用途免费使用。请勿复制、转售、再分发或干扰其正常运行。'],
+                    ['排行榜与昵称', '昵称不得含有冒犯性或误导性内容。排行榜仅供娱乐，可能包含自动生成的条目。'],
+                    ['不作担保', '本游戏按「现状」提供，不作任何形式的保证，我们不保证在所有设备或浏览器上不间断、无错误运行。'],
+                    ['责任限制', '在法律允许的最大范围内，2048zone.com 及其运营者不对间接损失（包括已保存进度丢失）承担责任。'],
+                    ['变更', '我们可能随时更改游戏内容（包括模式、主题、道具）及本条款。如有疑问，请联系 support@2048zone.com。']
+                ]},
+                contact: { title: '联系我们', intro: '发现了错误、有反馈，或只是想打个招呼？欢迎通过 support@2048zone.com 联系我们。', faq: [
+                    ['2048zone.com 免费吗？', '是的，完全免费，无需下载、注册账号或应用内购买。'],
+                    ['我的进度会自动保存吗？', '会的。棋盘、最高分和设置都会自动保存在您的浏览器中。'],
+                    ['如何报告错误？', '请发送邮件至 support@2048zone.com，说明发生的情况及您使用的浏览器/设备。']
+                ]}
             },
             ko: {
-                privacy: { title: "개인정보처리방침", content: "당사는 사용자의 개인정보를 중요하게 생각합니다. 2048zone.com에서는 최고 점수 저장을 위해 로컬 스토리지를 사용합니다." },
-                terms: { title: "이용약관", content: "2048zone.com을 이용함으로써 개인적 및 비상업적 용도의 게임 이용에 동의하게 됩니다." },
-                contact: { title: "연락처", content: "2048zone.com에 대한 질문이나 피드백이 있으시면 support@2048zone.com으로 문의해 주세요." },
-                back: "← 게임으로 돌아가기"
+                nav: { privacy: '개인정보처리방침', terms: '이용약관', contact: '연락처', back: '← 게임으로 돌아가기' },
+                updated: '마지막 업데이트',
+                faqHeading: '자주 묻는 질문',
+                privacy: { title: '개인정보처리방침', sections: [
+                    ['개요', '2048zone.com은 무료 브라우저 게임입니다. 이 페이지는 게임이 저장하는 정보와 이유를 설명합니다. 계정이 필요 없으며 데이터를 판매하지 않습니다.'],
+                    ['저장하는 정보', '진행 상황, 최고 점수, 닉네임, 사운드/테마 설정, 업적은 브라우저의 로컬 스토리지에 저장됩니다. 데이터는 사용자의 기기에만 남으며, 서버 데이터베이스는 존재하지 않습니다.'],
+                    ['랭킹', '선택한 닉네임과 최고 점수는 순위 표시를 위해 사용자의 기기에서만 표시되며, 개인정보를 요구하지 않습니다.'],
+                    ['쿠키 및 제3자 서비스', '추적 또는 광고용 쿠키는 사용하지 않습니다. 이 페이지는 Google Fonts에서 "Clear Sans" 글꼴을 불러오며, 이 과정에서 IP 주소가 전달될 수 있습니다. 현재 다른 제3자 서비스는 사용하지 않습니다.'],
+                    ['어린이 및 선택권', '서버로 아무것도 전송되지 않으므로, 어린이를 포함한 누구의 개인정보도 의도적으로 수집하지 않습니다. 브라우저 설정에서 언제든지 저장된 데이터를 삭제할 수 있습니다.'],
+                    ['변경 및 문의', '게임 변경에 따라 본 정책을 업데이트할 수 있으며, 상단 날짜가 최신 수정일입니다. 문의: support@2048zone.com.']
+                ]},
+                terms: { title: '이용약관', sections: [
+                    ['동의', '2048zone.com을 플레이하면 본 이용약관에 동의하는 것으로 간주됩니다. 동의하지 않으시면 이용을 삼가주세요.'],
+                    ['게임 이용', '본 게임은 개인적, 비상업적 용도로 무료 제공됩니다. 복제, 재판매, 재배포 또는 운영 방해를 금합니다.'],
+                    ['랭킹 및 닉네임', '닉네임은 불쾌하거나 오해의 소지가 있어서는 안 됩니다. 랭킹은 오락 목적이며 자동으로 생성된 항목을 포함할 수 있습니다.'],
+                    ['보증 없음', '본 게임은 어떠한 보증도 없이 "있는 그대로" 제공됩니다. 모든 기기·브라우저에서 중단 없는 오류 없는 이용을 보장하지 않습니다.'],
+                    ['책임', '관련 법률이 허용하는 범위 내에서, 2048zone.com 및 운영자는 저장된 진행 상황 손실을 포함한 간접 손해에 대해 책임지지 않습니다.'],
+                    ['변경', '모드, 테마, 파워업 등 게임과 본 약관은 언제든지 변경될 수 있습니다. 문의: support@2048zone.com.']
+                ]},
+                contact: { title: '연락처', intro: '버그를 발견했거나, 의견이 있거나, 인사만 하고 싶으신가요? support@2048zone.com으로 연락해 주세요.', faq: [
+                    ['2048zone.com은 무료인가요?', '네, 완전 무료입니다. 다운로드, 계정, 인앱 결제가 필요 없습니다.'],
+                    ['진행 상황이 자동으로 저장되나요?', '네. 보드, 최고 점수, 설정이 브라우저에 자동 저장됩니다.'],
+                    ['버그는 어떻게 신고하나요?', '발생한 상황과 사용 중인 브라우저/기기를 적어 support@2048zone.com으로 보내주세요.']
+                ]}
             },
             tr: {
-                privacy: { title: "Gizlilik Politikası", content: "Gizliliğiniz bizim için önemlidir. 2048zone.com'da en yüksek skoru kaydetmek için yerel depolama alanı kullanıyoruz." },
-                terms: { title: "Kullanım Şartları", content: "2048zone.com oynayarak oyunu kişisel ve ticari olmayan amaçlarla kullanmayı kabul etmiş olursunuz." },
-                contact: { title: "İletişim", content: "2048zone.com hakkında her türlü soru, geri bildirim veya hata bildirimi için: support@2048zone.com." },
-                back: "← Oyuna Dön"
+                nav: { privacy: 'Gizlilik Politikası', terms: 'Kullanım Şartları', contact: 'İletişim', back: '← Oyuna Dön' },
+                updated: 'Son güncelleme',
+                faqHeading: 'Sık Sorulan Sorular',
+                privacy: { title: 'Gizlilik Politikası', sections: [
+                    ['Genel Bakış', '2048zone.com ücretsiz bir tarayıcı oyunudur. Bu sayfa oyunun neyi neden sakladığını açıklar. Hesap gerekmez, verilerinizi asla satmayız.'],
+                    ['Sakladıklarımız', 'İlerlemeniz, en iyi skorunuz, rumuzunuz, ses/tema tercihleriniz ve başarımlarınız tarayıcınızın yerel depolamasında saklanır. Veriler cihazınızda kalır — sunucu tarafı veritabanımız yoktur.'],
+                    ['Sıralama', 'Seçtiğiniz rumuz ve en iyi skorunuz, sıralamanızı göstermek için yalnızca cihazınızda görüntülenir. Kişisel bilgi istenmez.'],
+                    ['Çerezler ve Üçüncü Taraflar', 'İzleme veya reklam çerezi kullanmıyoruz. Sayfa, Google Fonts üzerinden "Clear Sans" yazı tipini yükler; bu da IP adresinizi iletebilir. Şu anda başka bir üçüncü taraf hizmeti entegre değildir.'],
+                    ['Çocuklar ve Tercihleriniz', 'Sunucularımıza hiçbir şey gönderilmediğinden, çocuklar dahil kimseden bilerek kişisel veri toplamayız. Kayıtlı verilerinizi tarayıcı ayarlarından istediğiniz zaman silebilirsiniz.'],
+                    ['Değişiklikler ve İletişim', 'Oyun değiştikçe bu politikayı güncelleyebiliriz; yukarıdaki tarih son güncellemeyi gösterir. Sorularınız için: support@2048zone.com.']
+                ]},
+                terms: { title: 'Kullanım Şartları', sections: [
+                    ['Kabul', "2048zone.com'u oynayarak bu Kullanım Şartlarını kabul etmiş olursunuz. Kabul etmiyorsanız lütfen siteyi kullanmayın."],
+                    ['Oyunu Kullanma', 'Oyun, kişisel ve ticari olmayan kullanım için ücretsizdir. Kopyalamayın, yeniden satmayın, dağıtmayın veya işleyişine müdahale etmeyin.'],
+                    ['Sıralama ve Rumuzlar', 'Rumuzlar saldırgan veya yanıltıcı olamaz. Sıralama eğlence amaçlıdır ve otomatik oluşturulan girişler içerebilir.'],
+                    ['Garanti Yok', 'Oyun herhangi bir garanti olmaksızın "olduğu gibi" sunulur. Her cihaz veya tarayıcıda kesintisiz, hatasız çalışacağını garanti etmeyiz.'],
+                    ['Sorumluluk', 'Yasaların izin verdiği ölçüde, 2048zone.com ve işletmecileri, kayıtlı ilerleme kaybı dahil dolaylı zararlardan sorumlu değildir.'],
+                    ['Değişiklikler', 'Modlar, temalar ve güçlendiriciler dahil oyunu ve bu Şartları istediğimiz zaman değiştirebiliriz. Sorularınız için: support@2048zone.com.']
+                ]},
+                contact: { title: 'İletişim', intro: 'Bir hata mı buldunuz, geri bildiriminiz mi var, yoksa sadece merhaba mı demek istiyorsunuz? support@2048zone.com adresinden bize ulaşın.', faq: [
+                    ['2048zone.com ücretsiz mi?', 'Evet, tamamen ücretsiz — indirme, hesap veya uygulama içi satın alma gerekmez.'],
+                    ['İlerlemem otomatik kaydediliyor mu?', 'Evet. Tahta, en iyi skor ve ayarlar tarayıcınızda otomatik kaydedilir.'],
+                    ['Hatayı nasıl bildiririm?', 'Ne olduğunu ve kullandığınız tarayıcı/cihazı belirterek support@2048zone.com adresine yazın.']
+                ]}
             },
             ar: {
-                privacy: { title: "سياسة الخصوصية", content: "خصوصيتك مهمة بالنسبة لنا. نستخدم التخزين المحلي لحفظ نقاطك و ملفات تعريف الارتباط على 2048zone.com." },
-                terms: { title: "شروط الخدمة", content: "من خلال اللعب على 2048zone.com، فإنك توافق على الاستخدام الشخصي غير التجاري." },
-                contact: { title: "اتصل بنا", content: "إذا كان لديك أي أسئلة أو تعليقات بخصوص 2048zone.com، تواصل معنا عبر: support@2048zone.com." },
-                back: "← العودة إلى اللعبة"
+                nav: { privacy: 'سياسة الخصوصية', terms: 'شروط الخدمة', contact: 'اتصل بنا', back: '← العودة إلى اللعبة' },
+                updated: 'آخر تحديث',
+                faqHeading: 'الأسئلة الشائعة',
+                privacy: { title: 'سياسة الخصوصية', sections: [
+                    ['نظرة عامة', '2048zone.com لعبة مجانية تعمل عبر المتصفح. توضح هذه الصفحة ما تخزنه اللعبة ولماذا. لا حاجة لحساب، ولا نبيع بياناتك أبدًا.'],
+                    ['ما نقوم بتخزينه', 'يتم حفظ تقدمك، وأفضل نتيجة، والاسم المستعار، وإعدادات الصوت/المظهر، والإنجازات في التخزين المحلي لمتصفحك. تبقى البيانات على جهازك — لا توجد قاعدة بيانات على الخادم.'],
+                    ['لوحة المتصدرين', 'يظهر اسمك المستعار وأفضل نتيجة على جهازك فقط لإظهار ترتيبك. لا نطلب أي معلومات شخصية.'],
+                    ['ملفات تعريف الارتباط والأطراف الثالثة', 'لا نستخدم ملفات تعريف ارتباط للتتبع أو الإعلانات. تُحمّل الصفحة خط "Clear Sans" من Google Fonts، وقد يكشف ذلك عنوان IP الخاص بك. لا توجد خدمات أخرى من أطراف ثالثة حاليًا.'],
+                    ['الأطفال وخياراتك', 'لا نجمع عمدًا أي بيانات شخصية من أي شخص، بما في ذلك الأطفال، لأنه لا يُرسل شيء إلى خوادمنا. يمكنك حذف بياناتك المحفوظة في أي وقت من إعدادات المتصفح.'],
+                    ['التغييرات والتواصل', 'قد نحدّث هذه السياسة مع تطور اللعبة؛ يوضح التاريخ أعلاه آخر تحديث. للاستفسارات: support@2048zone.com.']
+                ]},
+                terms: { title: 'شروط الخدمة', sections: [
+                    ['الموافقة', 'باللعب على 2048zone.com، فإنك توافق على شروط الخدمة هذه. إذا كنت لا توافق، يرجى عدم استخدام الموقع.'],
+                    ['استخدام اللعبة', 'اللعبة مجانية للاستخدام الشخصي وغير التجاري. يُمنع نسخها أو إعادة بيعها أو توزيعها أو التدخل في عملها.'],
+                    ['لوحة المتصدرين والأسماء المستعارة', 'يجب ألا تكون الأسماء المستعارة مسيئة أو مضللة. لوحة المتصدرين لأغراض ترفيهية وقد تتضمن إدخالات مُنشأة تلقائيًا.'],
+                    ['بدون ضمان', 'تُقدَّم اللعبة "كما هي" دون أي ضمانات. لا نضمن عملاً متواصلاً وخاليًا من الأخطاء على كل جهاز أو متصفح.'],
+                    ['المسؤولية', 'إلى الحد الذي يسمح به القانون، لا تتحمل 2048zone.com ومشغّلوها مسؤولية الأضرار غير المباشرة، بما في ذلك فقدان التقدم المحفوظ.'],
+                    ['التغييرات', 'يجوز لنا تعديل اللعبة — الأنماط والمظاهر والقوى الخاصة — وهذه الشروط في أي وقت. للاستفسارات: support@2048zone.com.']
+                ]},
+                contact: { title: 'اتصل بنا', intro: 'وجدت خطأ، أو لديك ملاحظات، أو تريد فقط أن تقول مرحبًا؟ راسلنا على support@2048zone.com.', faq: [
+                    ['هل 2048zone.com مجانية؟', 'نعم، مجانية تمامًا — بلا تنزيل أو حساب أو مشتريات داخل التطبيق.'],
+                    ['هل يُحفظ تقدمي تلقائيًا؟', 'نعم. تُحفظ اللوحة وأفضل نتيجة والإعدادات تلقائيًا في متصفحك.'],
+                    ['كيف أبلغ عن خطأ؟', 'راسل support@2048zone.com موضحًا ما حدث والمتصفح/الجهاز المستخدم.']
+                ]}
             },
             hi: {
-                privacy: { title: "गोपनीयता नीति", content: "आपकी गोपनीयता हमारे लिए महत्वपूर्ण है। हम 2048zone.com पर स्कोर सहेजने के लिए स्थानीय स्टोरेज का उपयोग करते हैं।" },
-                terms: { title: "सेवा की शर्तें", content: "2048zone.com खेलकर, आप व्यक्तिगत और गैर-व्यावसायिक उपयोग के लिए सहमत होते हैं।" },
-                contact: { title: "संपर्क करें", content: "यदि आपके पास कोई प्रश्न या प्रतिक्रिया है, तो हमें यहाँ संपर्क करें: support@2048zone.com." },
-                back: "← गेम पर वापस जाएं"
+                nav: { privacy: 'गोपनीयता नीति', terms: 'सेवा की शर्तें', contact: 'संपर्क करें', back: '← गेम पर वापस जाएं' },
+                updated: 'अंतिम अद्यतन',
+                faqHeading: 'अक्सर पूछे जाने वाले प्रश्न',
+                privacy: { title: 'गोपनीयता नीति', sections: [
+                    ['अवलोकन', '2048zone.com एक मुफ़्त ब्राउज़र गेम है। यह पृष्ठ बताता है कि गेम क्या सहेजता है और क्यों। खाते की आवश्यकता नहीं, हम आपका डेटा कभी नहीं बेचते।'],
+                    ['हम क्या सहेजते हैं', 'आपकी प्रगति, सर्वश्रेष्ठ स्कोर, उपनाम, ध्वनि/थीम प्राथमिकताएँ और उपलब्धियाँ आपके ब्राउज़र के लोकल स्टोरेज में सहेजी जाती हैं। डेटा आपके डिवाइस पर ही रहता है — कोई सर्वर डेटाबेस नहीं है।'],
+                    ['रैंकिंग', 'आपका चुना हुआ उपनाम और सर्वश्रेष्ठ स्कोर केवल आपकी रैंक दिखाने के लिए आपके डिवाइस पर दिखाए जाते हैं। कोई व्यक्तिगत जानकारी नहीं मांगी जाती।'],
+                    ['कुकीज़ और तृतीय-पक्ष', 'हम ट्रैकिंग या विज्ञापन कुकीज़ का उपयोग नहीं करते। यह पृष्ठ Google Fonts से "Clear Sans" फ़ॉन्ट लोड करता है, जिससे आपका IP पता ज्ञात हो सकता है। फ़िलहाल कोई अन्य तृतीय-पक्ष सेवा शामिल नहीं है।'],
+                    ['बच्चे और आपके विकल्प', 'चूँकि हमारे सर्वर पर कुछ भी नहीं भेजा जाता, हम जानबूझकर किसी का भी — बच्चों सहित — व्यक्तिगत डेटा एकत्र नहीं करते। आप कभी भी ब्राउज़र सेटिंग्स से सहेजा डेटा हटा सकते हैं।'],
+                    ['बदलाव और संपर्क', 'गेम में बदलाव के साथ हम इस नीति को अपडेट कर सकते हैं; ऊपर दी गई तारीख नवीनतम संशोधन दर्शाती है। प्रश्न? support@2048zone.com.']
+                ]},
+                terms: { title: 'सेवा की शर्तें', sections: [
+                    ['स्वीकृति', '2048zone.com खेलकर, आप इन सेवा शर्तों से सहमत होते हैं। यदि सहमत नहीं हैं, तो कृपया साइट का उपयोग न करें।'],
+                    ['गेम का उपयोग', 'गेम व्यक्तिगत, गैर-व्यावसायिक उपयोग के लिए मुफ़्त है। इसे कॉपी, पुनर्विक्रय, पुनर्वितरण न करें और न ही इसके संचालन में बाधा डालें।'],
+                    ['रैंकिंग और उपनाम', 'उपनाम आपत्तिजनक या भ्रामक नहीं होने चाहिए। रैंकिंग मनोरंजन के लिए है और इसमें स्वतः जनरेट की गई प्रविष्टियाँ शामिल हो सकती हैं।'],
+                    ['कोई वारंटी नहीं', 'गेम बिना किसी वारंटी के "जैसा है" प्रदान किया जाता है। हम हर डिवाइस या ब्राउज़र पर निर्बाध, त्रुटि-रहित पहुंच की गारंटी नहीं देते।'],
+                    ['दायित्व', 'कानून द्वारा अनुमत सीमा तक, 2048zone.com और इसके संचालक सहेजी गई प्रगति के नुकसान सहित अप्रत्यक्ष क्षति के लिए उत्तरदायी नहीं हैं।'],
+                    ['बदलाव', 'हम मोड, थीम, पावर-अप सहित गेम को और इन शर्तों को किसी भी समय बदल सकते हैं। प्रश्न? support@2048zone.com.']
+                ]},
+                contact: { title: 'संपर्क करें', intro: 'कोई बग मिला, फीडबैक देना है, या बस नमस्ते कहना है? हमें support@2048zone.com पर लिखें।', faq: [
+                    ['क्या 2048zone.com मुफ़्त है?', 'हाँ, पूरी तरह मुफ़्त — कोई डाउनलोड, खाता या इन-ऐप खरीद नहीं।'],
+                    ['क्या मेरी प्रगति अपने आप सहेजी जाती है?', 'हाँ। बोर्ड, सर्वश्रेष्ठ स्कोर और सेटिंग्स आपके ब्राउज़र में अपने आप सहेजी जाती हैं।'],
+                    ['बग की रिपोर्ट कैसे करें?', 'क्या हुआ और आपका ब्राउज़र/डिवाइस बताते हुए support@2048zone.com पर लिखें।']
+                ]}
             },
             sv: {
-                privacy: { title: "Integritetspolicy", content: "Din integritet är viktig för oss. Vi använder lokal lagring för ditt poäng och cookies för analys på 2048zone.com." },
-                terms: { title: "Användarvillkor", content: "Genom att spela på 2048zone.com godkänner du personlig, icke-kommersiell användning." },
-                contact: { title: "Kontakt", content: "Om du har frågor eller feedback angående 2048zone.com, nå oss på: support@2048zone.com." },
-                back: "← Tillbaka till spelet"
+                nav: { privacy: 'Integritetspolicy', terms: 'Användarvillkor', contact: 'Kontakt', back: '← Tillbaka till spelet' },
+                updated: 'Senast uppdaterad',
+                faqHeading: 'Vanliga frågor',
+                privacy: { title: 'Integritetspolicy', sections: [
+                    ['Översikt', 'Le 2048zone.com är ett gratis webbläsarspel. Denna sida förklarar vad spelet sparar och varför. Inget konto krävs, vi säljer aldrig dina uppgifter.'],
+                    ['Vad vi sparar', 'Ditt förlopp, bästa poäng, smeknamn, ljud-/temainställningar och prestationer sparas i din webbläsares lokala lagring. Uppgifterna stannar på din enhet — ingen databas finns på servern.'],
+                    ['Topplista', 'Ditt smeknamn och bästa poäng visas endast på din enhet för att visa din placering. Inga personuppgifter efterfrågas.'],
+                    ['Cookies och tredje part', 'Vi använder inga spårnings- eller annonscookies. Sidan laddar typsnittet "Clear Sans" från Google Fonts, vilket kan avslöja din IP-adress. Ingen annan tredjepartstjänst är integrerad just nu.'],
+                    ['Barn och dina val', 'Vi samlar inte medvetet in personuppgifter från någon, inklusive barn, eftersom inget skickas till våra servrar. Du kan när som helst radera sparad data via webbläsarens inställningar.'],
+                    ['Ändringar och kontakt', 'Vi kan uppdatera denna policy när spelet ändras; datumet ovan visar senaste revidering. Frågor? support@2048zone.com.']
+                ]},
+                terms: { title: 'Användarvillkor', sections: [
+                    ['Godkännande', 'Genom att spela 2048zone.com godkänner du dessa användarvillkor. Om du inte godkänner, använd inte webbplatsen.'],
+                    ['Använda spelet', 'Spelet är gratis för personligt, icke-kommersiellt bruk. Kopiera, sälj vidare, distribuera inte eller stör spelets funktion.'],
+                    ['Topplista och smeknamn', 'Smeknamn får inte vara stötande eller vilseledande. Topplistan är till för underhållning och kan innehålla automatiskt genererade poster.'],
+                    ['Ingen garanti', 'Spelet tillhandahålls "i befintligt skick" utan några garantier. Vi garanterar inte oavbruten, felfri drift på alla enheter.'],
+                    ['Ansvar', 'I den mån lagen tillåter ansvarar inte 2048zone.com och dess operatörer för indirekta skador, inklusive förlust av sparat förlopp.'],
+                    ['Ändringar', 'Vi kan när som helst ändra spelet — lägen, teman, power-ups — och dessa villkor. Frågor? support@2048zone.com.']
+                ]},
+                contact: { title: 'Kontakt', intro: 'Hittat en bugg, har feedback, eller bara vill säga hej? Mejla oss på support@2048zone.com.', faq: [
+                    ['Är 2048zone.com gratis?', 'Ja, helt gratis — inga nedladdningar, konton eller köp i appen.'],
+                    ['Sparas mitt förlopp automatiskt?', 'Ja. Bräde, bästa poäng och inställningar sparas automatiskt i din webbläsare.'],
+                    ['Hur rapporterar jag en bugg?', 'Mejla support@2048zone.com med vad som hände och vilken webbläsare/enhet du använde.']
+                ]}
             },
             da: {
-                privacy: { title: "Privatlivspolitik", content: "Dit privatliv er vigtigt for os. Vi bruger lokal lagring til din score og cookies til analyse på 2048zone.com." },
-                terms: { title: "Vilkår for service", content: "Ved at spille på 2048zone.com accepterer du personlig, ikke-kommerciel brug." },
-                contact: { title: "Kontakt", content: "Hvis du har spørgsmål eller feedback vedrørende 2048zone.com, kan du kontakte os på: support@2048zone.com." },
-                back: "← Tilbage til spillet"
+                nav: { privacy: 'Privatlivspolitik', terms: 'Vilkår for service', contact: 'Kontakt', back: '← Tilbage til spillet' },
+                updated: 'Senest opdateret',
+                faqHeading: 'Ofte stillede spørgsmål',
+                privacy: { title: 'Privatlivspolitik', sections: [
+                    ['Oversigt', '2048zone.com er et gratis browserspil. Denne side forklarer, hvad spillet gemmer, og hvorfor. Ingen konto er nødvendig, og vi sælger aldrig dine data.'],
+                    ['Hvad vi gemmer', 'Dit fremskridt, bedste score, kaldenavn, lyd-/temaindstillinger og præstationer gemmes i din browsers lokale lager. Data forbliver på din enhed — der findes ingen server-database.'],
+                    ['Rangliste', 'Dit valgte kaldenavn og bedste score vises kun på din enhed for at angive din placering. Der bedes ikke om personlige oplysninger.'],
+                    ['Cookies og tredjepart', 'Vi bruger ingen sporings- eller reklamecookies. Siden indlæser skrifttypen "Clear Sans" fra Google Fonts, hvilket kan afsløre din IP-adresse. Ingen anden tredjepartstjeneste er integreret i øjeblikket.'],
+                    ['Børn og dine valg', 'Vi indsamler ikke bevidst personoplysninger fra nogen, heller ikke børn, da intet sendes til vores servere. Du kan altid slette gemte data via browserindstillingerne.'],
+                    ['Ændringer og kontakt', 'Vi kan opdatere denne politik, efterhånden som spillet udvikler sig; datoen ovenfor viser seneste revision. Spørgsmål? support@2048zone.com.']
+                ]},
+                terms: { title: 'Vilkår for service', sections: [
+                    ['Accept', 'Ved at spille 2048zone.com accepterer du disse vilkår for service. Hvis du ikke accepterer, bedes du ikke bruge siden.'],
+                    ['Brug af spillet', 'Spillet er gratis til personlig, ikke-kommerciel brug. Kopiér, videresælg eller distribuér det ikke, og forstyr ikke dets drift.'],
+                    ['Rangliste og kaldenavne', 'Kaldenavne må ikke være stødende eller vildledende. Ranglisten er til underholdning og kan indeholde automatisk genererede poster.'],
+                    ['Ingen garanti', 'Spillet leveres "som det er" uden nogen form for garanti. Vi garanterer ikke uafbrudt, fejlfri drift på alle enheder.'],
+                    ['Ansvar', 'I det omfang loven tillader det, er 2048zone.com og dets operatører ikke ansvarlige for indirekte skader, herunder tab af gemt fremskridt.'],
+                    ['Ændringer', 'Vi kan til enhver tid ændre spillet — tilstande, temaer, power-ups — og disse vilkår. Spørgsmål? support@2048zone.com.']
+                ]},
+                contact: { title: 'Kontakt', intro: 'Fundet en fejl, har feedback, eller vil bare sige hej? Skriv til os på support@2048zone.com.', faq: [
+                    ['Er 2048zone.com gratis?', 'Ja, helt gratis — ingen downloads, konto eller køb i appen.'],
+                    ['Gemmes mit fremskridt automatisk?', 'Ja. Bræt, bedste score og indstillinger gemmes automatisk i din browser.'],
+                    ['Hvordan rapporterer jeg en fejl?', 'Skriv til support@2048zone.com med hvad der skete, og hvilken browser/enhed du brugte.']
+                ]}
             },
             fi: {
-                privacy: { title: "Tietosuojakäytäntö", content: "Yksityisyytesi on meille tärkeää. Käytämme paikallista tallennustilaa pisteiden tallentamiseen 2048zone.com-sivustolla." },
-                terms: { title: "Käyttöehdot", content: "Pelaamalla 2048zone.com-sivustolla hyväksyt pelin henkilökohtaisen, ei-kaupallisen käytön." },
-                contact: { title: "Ota yhteyttä", content: "Jos sinulla on kysyttävää tai palautetta, ota yhteyttä: support@2048zone.com." },
-                back: "← Takaisin peliin"
+                nav: { privacy: 'Tietosuojakäytäntö', terms: 'Käyttöehdot', contact: 'Ota yhteyttä', back: '← Takaisin peliin' },
+                updated: 'Viimeksi päivitetty',
+                faqHeading: 'Usein kysytyt kysymykset',
+                privacy: { title: 'Tietosuojakäytäntö', sections: [
+                    ['Yleiskatsaus', '2048zone.com on ilmainen selainpeli. Tämä sivu selittää, mitä peli tallentaa ja miksi. Tiliä ei tarvita, emmekä koskaan myy tietojasi.'],
+                    ['Mitä tallennamme', 'Edistymisesi, paras pisteesi, nimimerkkisi, ääni-/teema-asetukset ja saavutukset tallennetaan selaimesi paikalliseen tallennustilaan. Tiedot pysyvät laitteellasi — palvelinpuolen tietokantaa ei ole.'],
+                    ['Pisteranking', 'Valitsemasi nimimerkki ja paras pistemäärä näytetään vain laitteellasi sijoituksesi ilmaisemiseksi. Henkilötietoja ei pyydetä.'],
+                    ['Evästeet ja kolmannet osapuolet', 'Emme käytä seuranta- tai mainosevästeitä. Sivu lataa "Clear Sans" -fontin Google Fontsista, mikä voi paljastaa IP-osoitteesi. Muita kolmannen osapuolen palveluita ei tällä hetkellä käytetä.'],
+                    ['Lapset ja valintasi', 'Emme kerää tietoisesti kenenkään henkilötietoja, lapset mukaan lukien, koska palvelimillemme ei lähetetä mitään. Voit poistaa tallennetut tiedot milloin tahansa selaimen asetuksista.'],
+                    ['Muutokset ja yhteystiedot', 'Voimme päivittää tätä käytäntöä pelin kehittyessä; yllä oleva päivämäärä osoittaa viimeisimmän muutoksen. Kysyttävää? support@2048zone.com.']
+                ]},
+                terms: { title: 'Käyttöehdot', sections: [
+                    ['Hyväksyminen', 'Pelaamalla 2048zone.comia hyväksyt nämä käyttöehdot. Jos et hyväksy niitä, älä käytä sivustoa.'],
+                    ['Pelin käyttö', 'Peli on ilmainen henkilökohtaiseen, ei-kaupalliseen käyttöön. Älä kopioi, jälleenmyy tai levitä sitä äläkä häiritse sen toimintaa.'],
+                    ['Pisteranking ja nimimerkit', 'Nimimerkit eivät saa olla loukkaavia tai harhaanjohtavia. Pisteranking on viihdetarkoituksessa ja voi sisältää automaattisesti luotuja merkintöjä.'],
+                    ['Ei takuuta', 'Peli tarjotaan "sellaisenaan" ilman minkäänlaisia takuita. Emme takaa keskeytymätöntä, virheetöntä toimintaa kaikilla laitteilla.'],
+                    ['Vastuu', 'Lain sallimissa rajoissa 2048zone.com ja sen ylläpitäjät eivät ole vastuussa välillisistä vahingoista, mukaan lukien tallennetun edistymisen menetys.'],
+                    ['Muutokset', 'Voimme muuttaa peliä — tiloja, teemoja, tehosteita — ja näitä ehtoja milloin tahansa. Kysyttävää? support@2048zone.com.']
+                ]},
+                contact: { title: 'Ota yhteyttä', intro: 'Löysitkö bugin, haluatko antaa palautetta vai vain sanoa hei? Kirjoita meille support@2048zone.com.', faq: [
+                    ['Onko 2048zone.com ilmainen?', 'Kyllä, täysin ilmainen — ei latauksia, tiliä tai sovelluksen sisäisiä ostoksia.'],
+                    ['Tallentuuko edistymiseni automaattisesti?', 'Kyllä. Pelilauta, paras pistemäärä ja asetukset tallentuvat automaattisesti selaimeesi.'],
+                    ['Miten ilmoitan bugista?', 'Kirjoita support@2048zone.com ja kerro, mitä tapahtui sekä käyttämäsi selain/laite.']
+                ]}
             },
             el: {
-                privacy: { title: "Πολιτική Απορρήτου", content: "Το απόρρητό σας είναι σημαντικό για εμάς. Χρησιμοποιούμε τοπική αποθήκευση για το σκορ σας στο 2048zone.com." },
-                terms: { title: "Όροι Xρήσης", content: "Παίζοντας στο 2048zone.com, συμφωνείτε με την προσωπική, μη εμπορική χρήση." },
-                contact: { title: "Επικοινωνία", content: "Εάν έχετε ερωτήσεις ή σχόλια σχετικά με το 2048zone.com, επικοινωνήστε μαζί μας: support@2048zone.com." },
-                back: "← Επιστροφή στο παιχνίδι"
+                nav: { privacy: 'Πολιτική Απορρήτου', terms: 'Όροι Χρήσης', contact: 'Επικοινωνία', back: '← Επιστροφή στο παιχνίδι' },
+                updated: 'Τελευταία ενημέρωση',
+                faqHeading: 'Συχνές ερωτήσεις',
+                privacy: { title: 'Πολιτική Απορρήτου', sections: [
+                    ['Επισκόπηση', 'Το 2048zone.com είναι ένα δωρεάν παιχνίδι browser. Αυτή η σελίδα εξηγεί τι αποθηκεύει το παιχνίδι και γιατί. Δεν απαιτείται λογαριασμός και ποτέ δεν πουλάμε τα δεδομένα σας.'],
+                    ['Τι αποθηκεύουμε', 'Η πρόοδός σας, η καλύτερη βαθμολογία, το ψευδώνυμο, οι προτιμήσεις ήχου/θέματος και τα επιτεύγματα αποθηκεύονται στην τοπική αποθήκευση του προγράμματος περιήγησης. Τα δεδομένα παραμένουν στη συσκευή σας — δεν υπάρχει βάση δεδομένων στον διακομιστή.'],
+                    ['Κατάταξη', 'Το ψευδώνυμο και η καλύτερη βαθμολογία σας εμφανίζονται μόνο στη συσκευή σας για να δείξουν τη θέση σας. Δεν ζητούνται προσωπικά δεδομένα.'],
+                    ['Cookies και τρίτοι', 'Δεν χρησιμοποιούμε cookies παρακολούθησης ή διαφήμισης. Η σελίδα φορτώνει τη γραμματοσειρά «Clear Sans» από τα Google Fonts, κάτι που ενδέχεται να αποκαλύψει τη διεύθυνση IP σας. Καμία άλλη υπηρεσία τρίτου δεν είναι ενσωματωμένη αυτή τη στιγμή.'],
+                    ['Παιδιά και οι επιλογές σας', 'Δεν συλλέγουμε εν γνώσει μας προσωπικά δεδομένα από κανέναν, συμπεριλαμβανομένων των παιδιών, καθώς τίποτα δεν αποστέλλεται στους διακομιστές μας. Μπορείτε να διαγράψετε τα αποθηκευμένα δεδομένα ανά πάσα στιγμή από τις ρυθμίσεις του προγράμματος περιήγησης.'],
+                    ['Αλλαγές και επικοινωνία', 'Ενδέχεται να ενημερώνουμε αυτήν την πολιτική καθώς εξελίσσεται το παιχνίδι· η παραπάνω ημερομηνία δείχνει την τελευταία αναθεώρηση. Ερωτήσεις; support@2048zone.com.']
+                ]},
+                terms: { title: 'Όροι Χρήσης', sections: [
+                    ['Αποδοχή', 'Παίζοντας το 2048zone.com, αποδέχεστε αυτούς τους Όρους Χρήσης. Εάν δεν συμφωνείτε, μη χρησιμοποιείτε τον ιστότοπο.'],
+                    ['Χρήση του παιχνιδιού', 'Το παιχνίδι είναι δωρεάν για προσωπική, μη εμπορική χρήση. Μην το αντιγράφετε, μεταπωλείτε, αναδιανέμετε ή παρεμβαίνετε στη λειτουργία του.'],
+                    ['Κατάταξη και ψευδώνυμα', 'Τα ψευδώνυμα δεν πρέπει να είναι προσβλητικά ή παραπλανητικά. Η κατάταξη προορίζεται για ψυχαγωγία και μπορεί να περιλαμβάνει αυτόματα δημιουργημένες εγγραφές.'],
+                    ['Καμία εγγύηση', 'Το παιχνίδι παρέχεται «ως έχει», χωρίς καμία εγγύηση. Δεν εγγυόμαστε αδιάλειπτη, χωρίς σφάλματα λειτουργία σε κάθε συσκευή ή πρόγραμμα περιήγησης.'],
+                    ['Ευθύνη', 'Στον βαθμό που επιτρέπεται από τον νόμο, το 2048zone.com και οι διαχειριστές του δεν ευθύνονται για έμμεσες ζημιές, συμπεριλαμβανομένης της απώλειας αποθηκευμένης προόδου.'],
+                    ['Αλλαγές', 'Μπορούμε να τροποποιήσουμε το παιχνίδι — λειτουργίες, θέματα, ενισχύσεις — και τους παρόντες Όρους ανά πάσα στιγμή. Ερωτήσεις; support@2048zone.com.']
+                ]},
+                contact: { title: 'Επικοινωνία', intro: 'Βρήκατε σφάλμα, έχετε σχόλια ή απλά θέλετε να μας χαιρετήσετε; Γράψτε μας στο support@2048zone.com.', faq: [
+                    ['Είναι δωρεάν το 2048zone.com;', 'Ναι, εντελώς δωρεάν — χωρίς λήψεις, λογαριασμό ή αγορές εντός εφαρμογής.'],
+                    ['Αποθηκεύεται αυτόματα η πρόοδός μου;', 'Ναι. Ο πίνακας, η καλύτερη βαθμολογία και οι ρυθμίσεις αποθηκεύονται αυτόματα στο πρόγραμμα περιήγησής σας.'],
+                    ['Πώς αναφέρω ένα σφάλμα;', 'Γράψτε στο support@2048zone.com περιγράφοντας τι συνέβη και ποιο πρόγραμμα περιήγησης/συσκευή χρησιμοποιήσατε.']
+                ]}
             },
             cs: {
-                privacy: { title: "Zásady ochrany osobních údajů", content: "Vaše soukromí je pro nás důležité. Na 2048zone.com používáme místní úložiště pro uložení skóre." },
-                terms: { title: "Podmínky použití", content: "Hraním na 2048zone.com souhlasíte s osobním, nekomerčním využitím hry." },
-                contact: { title: "Kontakt", content: "Máte-li jakékoli dotazy nebo zpětnou vazbu ohledně 2048zone.com, kontaktujte nás na: support@2048zone.com." },
-                back: "← Zpět do hry"
+                nav: { privacy: 'Zásady ochrany osobních údajů', terms: 'Podmínky použití', contact: 'Kontakt', back: '← Zpět do hry' },
+                updated: 'Naposledy aktualizováno',
+                faqHeading: 'Často kladené dotazy',
+                privacy: { title: 'Zásady ochrany osobních údajů', sections: [
+                    ['Přehled', '2048zone.com je bezplatná prohlížečová hra. Tato stránka vysvětluje, co hra ukládá a proč. Účet není potřeba a vaše data nikdy neprodáváme.'],
+                    ['Co ukládáme', 'Váš postup, nejlepší skóre, přezdívka, nastavení zvuku/motivu a úspěchy se ukládají do lokálního úložiště vašeho prohlížeče. Data zůstávají na vašem zařízení — neexistuje žádná databáze na serveru.'],
+                    ['Žebříček', 'Vaše přezdívka a nejlepší skóre se zobrazují pouze na vašem zařízení, aby ukázaly vaše pořadí. Osobní údaje nejsou vyžadovány.'],
+                    ['Cookies a třetí strany', 'Nepoužíváme sledovací ani reklamní cookies. Stránka načítá písmo „Clear Sans" z Google Fonts, což může prozradit vaši IP adresu. V současnosti není integrována žádná jiná služba třetí strany.'],
+                    ['Děti a vaše volby', 'Vědomě neshromažďujeme osobní údaje od nikoho, včetně dětí, protože na naše servery se nic neodesílá. Uložená data můžete kdykoli smazat v nastavení prohlížeče.'],
+                    ['Změny a kontakt', 'Tuto zásadu můžeme čas od času aktualizovat podle vývoje hry; datum výše ukazuje poslední revizi. Dotazy? support@2048zone.com.']
+                ]},
+                terms: { title: 'Podmínky použití', sections: [
+                    ['Souhlas', 'Hraním 2048zone.com souhlasíte s těmito Podmínkami použití. Pokud nesouhlasíte, prosím web nepoužívejte.'],
+                    ['Používání hry', 'Hra je zdarma pro osobní, nekomerční použití. Nekopírujte, nedále neprodávejte, nedistribuujte ji a nezasahujte do jejího provozu.'],
+                    ['Žebříček a přezdívky', 'Přezdívky nesmí být urážlivé ani zavádějící. Žebříček slouží k zábavě a může obsahovat automaticky generované záznamy.'],
+                    ['Žádná záruka', 'Hra je poskytována „tak jak je", bez jakýchkoli záruk. Nezaručujeme nepřerušovaný, bezchybný provoz na všech zařízeních.'],
+                    ['Odpovědnost', 'V rozsahu povoleném zákonem nenesou 2048zone.com a jeho provozovatelé odpovědnost za nepřímé škody, včetně ztráty uloženého postupu.'],
+                    ['Změny', 'Hru — režimy, motivy, power-upy — i tyto Podmínky můžeme kdykoli změnit. Dotazy? support@2048zone.com.']
+                ]},
+                contact: { title: 'Kontakt', intro: 'Našli jste chybu, máte zpětnou vazbu, nebo se chcete jen pozdravit? Napište nám na support@2048zone.com.', faq: [
+                    ['Je 2048zone.com zdarma?', 'Ano, zcela zdarma — bez stahování, účtu nebo nákupů v aplikaci.'],
+                    ['Ukládá se můj postup automaticky?', 'Ano. Deska, nejlepší skóre a nastavení se automaticky ukládají ve vašem prohlížeči.'],
+                    ['Jak nahlásím chybu?', 'Napište na support@2048zone.com s popisem, co se stalo, a jaký prohlížeč/zařízení jste použili.']
+                ]}
             }
         };
 
-        const pathSegments = window.location.pathname.split('/').filter(Boolean);
-        let lang = 'en';
-        let pageType = 'privacy';
-
-        const supportedLangs = Object.keys(legalTexts);
-        if (pathSegments.length > 0 && supportedLangs.includes(pathSegments[0])) {
-            lang = pathSegments[0];
-            if (pathSegments.length > 1) {
-                pageType = pathSegments[1];
-            }
-        } else {
-            const urlParams = new URLSearchParams(window.location.search);
-            lang = urlParams.get('lang') || 'en';
-            pageType = urlParams.get('page') || 'privacy';
+        function pathFor(lang, page) {
+            return (lang === 'en' ? '' : '/' + lang) + '/' + page;
+        }
+        function homeFor(lang) {
+            return lang === 'en' ? '/' : '/' + lang + '/';
         }
 
-        const t = legalTexts[lang] || legalTexts['en'];
-        const pageData = t[pageType] || t.privacy;
+        function setMeta(name, val, isProperty) {
+            const el = document.querySelector(isProperty ? `meta[property="${name}"]` : `meta[name="${name}"]`);
+            if (el) el.setAttribute('content', val);
+        }
 
-        document.getElementById('page-title').textContent = pageData.title + " – 2048zone.com";
-        document.getElementById('heading').textContent = pageData.title;
-        document.getElementById('text-content').innerHTML = `<p>${pageData.content}</p>`;
-        document.getElementById('back-link').textContent = t.back;
-        
-        const backUrl = supportedLangs.includes(pathSegments[0]) ? `/${pathSegments[0]}/` : '/';
-        document.getElementById('back-link').href = backUrl;
+        function route() {
+            const seg = location.pathname.split('/').filter(Boolean);
+            let lang = 'en', page = 'privacy';
+            if (seg.length && LANGS.includes(seg[0])) {
+                lang = seg[0];
+                if (seg.length > 1 && PAGES.includes(seg[1])) page = seg[1];
+            } else if (seg.length && PAGES.includes(seg[0])) {
+                page = seg[0];
+            } else {
+                const qp = new URLSearchParams(location.search);
+                if (LANGS.includes(qp.get('lang'))) lang = qp.get('lang');
+                if (PAGES.includes(qp.get('page'))) page = qp.get('page');
+            }
+            return { lang, page };
+        }
+
+        function render() {
+            const { lang, page } = route();
+            const t = content[lang] || content.en;
+            const pageData = t[page];
+            const isRtl = lang === 'ar';
+
+            document.documentElement.lang = lang;
+            document.documentElement.dir = isRtl ? 'rtl' : 'ltr';
+
+            const fullTitle = `${pageData.title} – 2048zone.com`;
+            const metaDescRaw = page === 'contact' ? pageData.intro : pageData.sections[0][1];
+            const metaDesc = metaDescRaw.length > 158 ? metaDescRaw.slice(0, 155) + '…' : metaDescRaw;
+            const canonicalUrl = `${SITE}${pathFor(lang, page)}`;
+
+            document.title = fullTitle;
+            setMeta('description', metaDesc);
+            setMeta('og:title', fullTitle, true);
+            setMeta('og:description', metaDesc, true);
+            setMeta('og:url', canonicalUrl, true);
+            const canonicalEl = document.getElementById('page-canonical');
+            if (canonicalEl) canonicalEl.setAttribute('href', canonicalUrl);
+
+            const hreflangHTML = LANGS.map(l =>
+                `<link rel="alternate" hreflang="${l}" href="${SITE}${pathFor(l, page)}">`
+            ).join('') + `<link rel="alternate" hreflang="x-default" href="${SITE}${pathFor('en', page)}">`;
+            document.getElementById('hreflang-container').outerHTML = `<span id="hreflang-container">${hreflangHTML}</span>`;
+
+            let jsonLd;
+            if (page === 'contact') {
+                jsonLd = {
+                    "@context": "https://schema.org",
+                    "@type": "FAQPage",
+                    "mainEntity": pageData.faq.map(([q, a]) => ({
+                        "@type": "Question", "name": q,
+                        "acceptedAnswer": { "@type": "Answer", "text": a }
+                    }))
+                };
+            } else {
+                jsonLd = {
+                    "@context": "https://schema.org",
+                    "@type": "WebPage",
+                    "name": pageData.title,
+                    "url": canonicalUrl,
+                    "inLanguage": lang,
+                    "isPartOf": { "@type": "WebSite", "name": "2048zone.com", "url": SITE + "/" }
+                };
+            }
+            document.getElementById('page-jsonld').textContent = JSON.stringify(jsonLd);
+
+            document.getElementById('brand-link').href = homeFor(lang);
+            document.getElementById('back-link').href = homeFor(lang);
+            document.getElementById('back-link').textContent = t.nav.back;
+
+            document.getElementById('page-nav').innerHTML = PAGES.map(p => {
+                const cls = p === page ? ' class="active"' : '';
+                return `<a href="${pathFor(lang, p)}"${cls}>${t.nav[p]}</a>`;
+            }).join('');
+
+            const select = document.getElementById('lang-select');
+            select.innerHTML = LANGS.map(l => `<option value="${l}"${l === lang ? ' selected' : ''}>${LANG_NAMES[l]}</option>`).join('');
+            select.onchange = () => { location.href = pathFor(select.value, page); };
+
+            document.getElementById('heading').textContent = pageData.title;
+            document.getElementById('updated-line').textContent = `${t.updated}: ${LAST_UPDATED}`;
+
+            const textEl = document.getElementById('text-content');
+            if (page === 'contact') {
+                textEl.innerHTML =
+                    `<p class="intro-text">${pageData.intro}</p>` +
+                    `<div class="email-line">✉️ <a href="mailto:support@2048zone.com">support@2048zone.com</a></div>` +
+                    `<h2 class="faq-heading">${t.faqHeading}</h2>` +
+                    pageData.faq.map(([q, a]) => `<div class="faq-item"><h3>${q}</h3><p>${a}</p></div>`).join('');
+            } else {
+                textEl.innerHTML = pageData.sections.map(([h, p]) =>
+                    `<section><h2>${h}</h2><p>${p}</p></section>`
+                ).join('');
+            }
+        }
+
+        render();
     </script>
 </body>
 </html>

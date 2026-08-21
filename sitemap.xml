@@ -582,4 +582,1688 @@
     <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/en/" />
   </url>
 
+
+
+  <!-- Legal pages (privacy / terms / contact) -->
+
+  <url>
+    <loc>https://2048zone.com/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pl/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/de/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fr/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/es/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/it/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pt/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/nl/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ru/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ja/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/zh/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ko/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/tr/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ar/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/hi/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/sv/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/da/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fi/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/el/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/cs/privacy</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/privacy" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/privacy" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/privacy" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/privacy" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/privacy" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/privacy" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/privacy" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/privacy" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/privacy" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/privacy" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/privacy" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/privacy" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/privacy" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/privacy" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/privacy" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/privacy" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/privacy" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/privacy" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/privacy" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/privacy" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/privacy" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pl/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/de/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fr/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/es/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/it/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pt/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/nl/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ru/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ja/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/zh/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ko/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/tr/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ar/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/hi/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/sv/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/da/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fi/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/el/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/cs/terms</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/terms" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/terms" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/terms" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/terms" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/terms" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/terms" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/terms" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/terms" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/terms" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/terms" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/terms" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/terms" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/terms" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/terms" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/terms" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/terms" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/terms" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/terms" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/terms" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/terms" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/terms" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pl/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/de/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fr/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/es/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/it/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/pt/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/nl/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ru/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ja/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/zh/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ko/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/tr/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/ar/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/hi/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/sv/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/da/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/fi/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/el/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
+  <url>
+    <loc>https://2048zone.com/cs/contact</loc>
+    <lastmod>2026-08-20</lastmod>
+    <changefreq>monthly</changefreq>
+    <priority>0.4</priority>
+    <xhtml:link rel="alternate" hreflang="en" href="https://2048zone.com/contact" />
+    <xhtml:link rel="alternate" hreflang="pl" href="https://2048zone.com/pl/contact" />
+    <xhtml:link rel="alternate" hreflang="de" href="https://2048zone.com/de/contact" />
+    <xhtml:link rel="alternate" hreflang="fr" href="https://2048zone.com/fr/contact" />
+    <xhtml:link rel="alternate" hreflang="es" href="https://2048zone.com/es/contact" />
+    <xhtml:link rel="alternate" hreflang="it" href="https://2048zone.com/it/contact" />
+    <xhtml:link rel="alternate" hreflang="pt" href="https://2048zone.com/pt/contact" />
+    <xhtml:link rel="alternate" hreflang="nl" href="https://2048zone.com/nl/contact" />
+    <xhtml:link rel="alternate" hreflang="ru" href="https://2048zone.com/ru/contact" />
+    <xhtml:link rel="alternate" hreflang="ja" href="https://2048zone.com/ja/contact" />
+    <xhtml:link rel="alternate" hreflang="zh" href="https://2048zone.com/zh/contact" />
+    <xhtml:link rel="alternate" hreflang="ko" href="https://2048zone.com/ko/contact" />
+    <xhtml:link rel="alternate" hreflang="tr" href="https://2048zone.com/tr/contact" />
+    <xhtml:link rel="alternate" hreflang="ar" href="https://2048zone.com/ar/contact" />
+    <xhtml:link rel="alternate" hreflang="hi" href="https://2048zone.com/hi/contact" />
+    <xhtml:link rel="alternate" hreflang="sv" href="https://2048zone.com/sv/contact" />
+    <xhtml:link rel="alternate" hreflang="da" href="https://2048zone.com/da/contact" />
+    <xhtml:link rel="alternate" hreflang="fi" href="https://2048zone.com/fi/contact" />
+    <xhtml:link rel="alternate" hreflang="el" href="https://2048zone.com/el/contact" />
+    <xhtml:link rel="alternate" hreflang="cs" href="https://2048zone.com/cs/contact" />
+    <xhtml:link rel="alternate" hreflang="x-default" href="https://2048zone.com/contact" />
+  </url>
+
 </urlset>
